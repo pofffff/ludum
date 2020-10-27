@@ -17,3 +17,7 @@ npm install
 ```
 npm run serve
 ```
+
+För att publicera pages
+npm run build
+npm gh-pages -d dist/
