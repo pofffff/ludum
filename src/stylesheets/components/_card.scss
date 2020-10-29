@@ -1,5 +1,8 @@
-.gaming_card {
-  width: 300px;
-  height: 500px;
-  background-color: blue;
+.gaming__card {
+  @include flexCenter();
+  padding: $M;
+  width: auto;
+  height: auto;
+  background-color: $card;
+  border-radius: $border_radius;
 }

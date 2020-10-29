@@ -374,10 +374,15 @@ a {
   } */
 }
 
+.wrapper {
+  margin: 48px 180px;
+}
+
 h1,
 h2,
 h3,
 h4 {
+  color: #f9f9f9;
   font-family: "Hind Siliguri", sans-serif;
   letter-spacing: 1px;
 }
@@ -408,6 +413,13 @@ h3 {
 h4 {
   margin: 12px;
   font-size: 18px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #f9f9f9;
+  margin: 12px;
+  size: 12;
 }
 
 /**
@@ -528,9 +540,24 @@ button {
   }
 }
 
-.gaming_card {
-  width: 300px;
-  height: 500px;
-  background-color: blue;
+.gaming__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px;
+  width: auto;
+  height: auto;
+  background-color: #23292f;
+  border-radius: 3px;
 }
 /*# sourceMappingURL=main.css.map */

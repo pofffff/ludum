@@ -1,0 +1,356 @@
+{
+  "games": [
+    {
+      "id": "0001",
+      "name": "Valorant",
+      "type": ["FPS", "MMO", "Action"],
+      "editions": [
+        {
+          "edition": "Standard edition",
+          "price": "10,00"
+        },
+        {
+          "edition": "Deluxe edition",
+          "price": "15,00"
+        },
+        {
+          "edition": "Collector's edition",
+          "price": "20,00"
+        }
+      ],
+      "images": [
+        "valorant/valorant_1.jpg",
+        "valorant/valorant_2.jpg",
+        "valorant/valorant_3.jpg",
+        "valorant/valorant_4.jpg",
+        "valorant/valorant_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=e_E9W2vsRbQ",
+          "gameplay": "https://www.youtube.com/watch?v=K2lp6xqnTqA"
+        }
+      ],
+      "decription": "It's a 5v5 tac-shooter matchup to plant or defuse the Spike in a one-life-per-round, first to 13 series. More than guns and bullets, you'll choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine.Creativity is your greatest weapon."
+    },
+    {
+      "id": "0002",
+      "name": "World of Warcraft",
+      "type": ["MMORPG", "Open World", "Adventure"],
+      "editions": [
+        {
+          "edition": "Standard edition",
+          "price": "15,00"
+        },
+        {
+          "edition": "Deluxe edition",
+          "price": "25,00"
+        },
+        {
+          "edition": "Collector's edition",
+          "price": "50,00"
+        }
+      ],
+      "images": [
+        "wow/wow_1.jpg",
+        "wow/wow_2.jpg",
+        "wow/wow_3.jpg",
+        "wow/wow_4.jpg",
+        "wow/wow_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=s4gBChg6AII",
+          "gameplay": "https://www.youtube.com/watch?v=iVxfMTFNL6A"
+        }
+      ],
+      "decription": "Explore Azeroth's past and discover the stories that shaped the world. A world full of legendary adventures awaits you in World of Warcraft."
+    },
+    {
+      "id": "0003",
+      "name": "Counter Strike GO",
+      "type": ["FPS", "Plant the bomb", "Action"],
+      "editions": [
+        {
+          "edition": "Standard edition",
+          "price": "9,99"
+        }
+      ],
+      "images": [
+        "cs/cs_1.jpg",
+        "cs/cs_2.jpg",
+        "cs/cs_3.jpg",
+        "cs/cs_4.jpg",
+        "cs/cs_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=edYCtaNueQY",
+          "gameplay": "https://www.youtube.com/watch?v=rOpariPFAeM"
+        }
+      ],
+      "decription": "Set in various locations around the globe, players assume the roles of counter-terrorist forces and terrorist militants opposing them. During each round of gameplay, the two teams are tasked with defeating the other by the means of either achieving the map's objectives or eliminating all of the enemy combatants."
+    },
+    {
+      "id": "0004",
+      "name": "Fortnite",
+      "type": ["FPS", "Battle royal", "Action"],
+      "editions": [
+        {
+          "edition": "Standard edition",
+          "price": "4,99"
+        }
+      ],
+      "images": [
+        "fortnite/fortnite_1.jpg",
+        "fortnite/fortnite_2.jpg",
+        "fortnite/fortnite_3.jpg",
+        "fortnite/fortnite_4.jpg",
+        "fortnite/fortnite_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=2gUtfBmw86Y",
+          "gameplay": "https://www.youtube.com/watch?v=5Vzxj6flcfM"
+        }
+      ],
+      "decription": "Fortnite is a survival game where 100 players fight against each other in player versus player combat to be the last one standing. It is a fast-paced, action-packed game, not unlike The Hunger Games, where strategic thinking is a must in order to survive."
+    },
+    {
+      "id": "0005",
+      "name": "League of Legends",
+      "type": ["5v5", "RPG", "MOBA "],
+      "editions": [{ "edition": "Standard edition", "price": "Free to play" }],
+      "images": [
+        "lol/lol_1.jpg",
+        "lol/lol_2.jpg",
+        "lol/lol_3.jpg",
+        "lol/lol_4.jpg",
+        "lol/lol_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=IzMnCv_lPxI",
+          "gameplay": "https://www.youtube.com/watch?v=6jRfu885ynE"
+        }
+      ],
+      "decription": "League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory."
+    },
+    {
+      "id": "0006",
+      "name": "Red Dead Redemption 2",
+      "type": ["FPS", "Open World"],
+      "editions": [
+        {"edition": "Standard edition", "price": "49,00"}, 
+        {"edition": "Deluxe edition", "price": "79,00"},
+        {"edition": "Collector's edition", "price": "99,99"}
+    ],
+      "images": [
+        "rdr2/rdr2_1.jpg",
+        "rdr2/rdr2_2.jpg",
+        "rdr2/rdr2_3.jpg",
+        "rdr2/rdr2_4.jpg",
+        "rdr2/rdr2_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=eaW0tYpxyp0",
+          "gameplay": "https://www.youtube.com/watch?v=0d-U2QL2Qvc"
+        }
+      ],
+      "decription": "Red Dead Redemption 2 is set in an open world consisting of five American regions, which the player can explore as they proceed with the story, and can be played through both third-person and first-person view."
+    },
+    {
+      "id": "0007",
+      "name": "Destiny 2",
+      "type": ["FPS", "MMO"],
+      "editions": [
+        {"edition": "Standard edition", "price": "49,00"}, 
+        {"edition": "Deluxe edition", "price": "79,00"},
+        {"edition": "Collector's edition", "price": "99,99"}
+    ],
+      "images": [
+        "destiny2/destiny2_1.jpg",
+        "destiny2/destiny2_2.jpg",
+        "destiny2/destiny2_3.jpg",
+        "destiny2/destiny2_4.jpg",
+        "destiny2/destiny2_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=hdWkpbPTpmE",
+          "gameplay": "https://www.youtube.com/watch?v=c2ebBrn3_kE"
+        }
+      ],
+      "decription": "Destiny 2 is a first-person shooter game that incorporates role-playing and massively multiplayer online game (MMO) elements."
+    },
+    {
+      "id": "0008",
+      "name": "FIFA 21",
+      "type": ["Sport", "MMO"],
+      "editions": [
+        {"edition": "Standard edition", "price": "49,00"}, 
+        {"edition": "Deluxe edition", "price": "79,00"},
+        {"edition": "Collector's edition", "price": "99,99"}
+    ],
+      "images": [
+        "fifa/fifa_1.jpg",
+        "fifa/fifa_2.jpg",
+        "fifa/fifa_3.jpg",
+        "fifa/fifa_4.jpg",
+        "fifa/fifa_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=Jmliox1trPQ",
+          "gameplay": "https://www.youtube.com/watch?v=n8Y8lKXWi0I"
+        }
+      ],
+      "decription": "EA SPORTS FIFA 21 brings you unrivaled authenticity with more than 30 official leagues, 700+ teams, and 17,000+ authentic players."
+    },
+    {
+      "id": "0009",
+      "name": "NHL 21",
+      "type": ["Sport", "MMO"],
+      "editions": [
+        {"edition": "Standard edition", "price": "49,00"}, 
+        {"edition": "Deluxe edition", "price": "79,00"},
+        {"edition": "Collector's edition", "price": "99,99"}
+    ],
+      "images": [
+        "nhl/nhl_1.jpg",
+        "nhl/nhl_2.jpg",
+        "nhl/nhl_3.jpg",
+        "nhl/nhl_4.jpg",
+        "nhl/nhl_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=18661baC2cs",
+          "gameplay": "https://www.youtube.com/watch?v=lFYDftIshlc"
+        }
+      ],
+      "decription": "NHL 21 is an ice hockey simulation video game developed by EA Vancouver and published by EA Sports. It is the 30th installment in the NHL game series"
+    },
+    {
+      "id": "0010",
+      "name": "PlayerUnknown's Battlegrounds",
+      "type": ["FPS", "Battle royal"],
+      "editions": [{ "edition": "Standard edition", "price": "Free to play" }],
+      "images": [
+        "pubg/pugb_1.jpg",
+        "pubg/pugb_2.jpg",
+        "pubg/pugb_3.jpg",
+        "pubg/pugb_4.jpg",
+        "pubg/pugb_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=ODWCbu_cuqk",
+          "gameplay": "https://www.youtube.com/watch?v=sctOYN2pMs4"
+        }
+      ],
+      "decription": "attlegrounds is a player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive."
+    },
+    {
+      "id": "0011",
+      "name": "Minecraft",
+      "type": ["Sandbox", "MMO"],
+      "editions": [{ "edition": "Standard edition", "price": "Free to play" }],
+      "images": [
+        "minecraft/minecraft_1.jpg",
+        "minecraft/minecraft_2.jpg",
+        "minecraft/minecraft_3.jpg",
+        "minecraft/minecraft_4.jpg",
+        "minecraft/minecraft_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+          "gameplay": "https://www.youtube.com/watch?v=K8sPIioq-e4"
+        }
+      ],
+      "decription": "Minecraft is a video game in which players create and break apart various kinds of blocks in three-dimensional worlds. The game's two main modes are Survival and Creative."
+    },
+    {
+      "id": "0012",
+      "name": "DOTA 2",
+      "type": ["5v5", "RPG", "MOBA "],
+      "editions": [{ "edition": "Standard edition", "price": "Free to play" }],
+      "images": [
+        "dota/dota_1.jpg",
+        "dota/dota_2.jpg",
+        "dota/dota_3.jpg",
+        "dota/dota_4.jpg",
+        "dota/dota_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=-cSFPIwMEq4",
+          "gameplay": "https://www.youtube.com/watch?v=59KnNcU9iKc"
+        }
+      ],
+      "decription": "Dota 2 is a multiplayer online battle arena (MOBA) video game in which two teams of five players compete to collectively destroy a large structure defended by the opposing team known as the 'Ancient', whilst defending their own."
+    },
+    {
+      "id": "0013",
+      "name": "Overwatch 2",
+      "type": "",
+      "editions": [{}, {}, {}],
+      "images": [
+        "overwatch/overwatch_1.jpg",
+        "overwatch/overwatch_2.jpg",
+        "overwatch/overwatch_3.jpg",
+        "overwatch/overwatch_4.jpg",
+        "overwatch/overwatch_5.jpg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=GKXS_YA9s7E",
+          "gameplay": "https://www.youtube.com/watch?v=dushZybUYnM"
+        }
+      ],
+      "decription": ""
+    },
+    {
+      "id": "0014",
+      "name": "Heartstone",
+      "type": "",
+      "editions": [{}, {}, {}],
+      "images": [
+        "hearthstone/hearthstone_1.png",
+        "hearthstone/hearthstone_2.jpg",
+        "hearthstone/hearthstone_3.png",
+        "hearthstone/hearthstone_4.jpg",
+        "hearthstone/hearthstone_5.jpeg"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=vPguoeYTvMI",
+          "gameplay": "https://www.youtube.com/watch?v=ymuVLuVlsOU"
+        }
+      ],
+      "decription": ""
+    },
+    {
+      "id": "0015",
+      "name": "Call of Duty Modern warfare",
+      "type": "",
+      "editions": [{}, {}, {}],
+      "images": [
+        "cod/cod_1.jpg",
+        "cod/cod_2.jpg",
+        "cod/cod_3.jpg",
+        "cod/cod_4.jpg",
+        "cod/cod_5.png"
+      ],
+      "video": [
+        {
+          "trailer": "https://www.youtube.com/watch?v=J7Ivdq5E-fs",
+          "gameplay": "https://www.youtube.com/watch?v=XTNMlA4kUHc"
+        }
+      ],
+      "decription": ""
+    }
+  ]
+}

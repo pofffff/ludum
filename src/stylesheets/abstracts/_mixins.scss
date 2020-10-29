@@ -43,4 +43,9 @@
 
 @mixin nav_text_link_hover {
   color: $site_color;
+@mixin flexCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
