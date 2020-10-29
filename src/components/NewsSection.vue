@@ -1,12 +1,11 @@
 <template>
-  <section>
-  <GamingCard />
+  <section class="news__section">
+    <NewsArticle />
   </section>
 </template>
 
 <script>
-import GamingCard from "@/components/global/cards/GamingCard"
-
+import NewsArticle from "@/components/NewsArticle"
 export default {
   data() {
     return {
@@ -14,12 +13,11 @@ export default {
     }
   },
   components: {
-   GamingCard,
-   
+    NewsArticle
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style>
 
 </style>

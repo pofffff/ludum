@@ -1,5 +1,5 @@
 <template>
-  <article> 
+  <article class="gaming__card"> 
     <h3>VALORANT</h3>
     <img src="https://i.gadgets360cdn.com/large/valorant_1591074256451.jpeg?downsize=950:*&output-quality=80&output-format=webp" alt="">
     <h4>Description</h4>
