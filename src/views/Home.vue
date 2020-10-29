@@ -3,3 +3,9 @@
     <h1>Welcome to Your Vue.js App</h1>
   </div>
 </template>
+
+<style lang="scss" scoped>
+h1 {
+  font-size: $XXL;
+}
+</style>

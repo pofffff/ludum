@@ -3,3 +3,7 @@
     <router-view />
   </div>
 </template>
+
+<style lang="scss" scoped>
+@import "../src/stylesheets/main.scss";
+</style>
