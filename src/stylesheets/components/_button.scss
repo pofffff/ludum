@@ -20,7 +20,7 @@ button {
 
 .primary_button:hover {
   border: 2px solid $site_color;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .ghost_button {
@@ -32,7 +32,7 @@ button {
 
 .ghost_button:hover {
   border: 2px solid $site-color;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .secondary_button {
@@ -44,7 +44,7 @@ button {
 
 .secondary_button:hover {
   border: 2px solid $text_color;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 600px) {
