@@ -1,4 +1,5 @@
 .gaming__card {
+  @include flexCenter();
   width: 324px;
   height: 469px;
   background-color: $card;

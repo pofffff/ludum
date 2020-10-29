@@ -6,6 +6,7 @@
 
 <script>
 import GamingCard from "@/components/global/cards/GamingCard"
+
 export default {
   data() {
     return {
@@ -13,7 +14,8 @@ export default {
     }
   },
   components: {
-   GamingCard
+   GamingCard,
+   
   }
 }
 </script>
