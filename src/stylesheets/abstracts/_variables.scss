@@ -4,11 +4,15 @@
 
 /// Regular font family
 /// @type List
-$main_font: 'Hind Siliguri', sans-serif;
+$title_font: "Hind Siliguri", sans-serif;
+
+/// Button font
+/// @type List
+$button_font: "Hind Siliguri", sans-serif;
 
 /// Body font family
 /// @type List
-$secondary_font: 'Roboto', sans-serif;
+$body_font: "Roboto", sans-serif;
 
 // COlORS
 // Black
@@ -54,13 +58,13 @@ $max-width: 1180px !default;
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
 $breakpoints: (
-  'small': 320px,
-  'medium': 768px,
-  'large': 1024px,
+  "small": 320px,
+  "medium": 768px,
+  "large": 1024px,
 ) !default;
 
 /// Relative or absolute URL where all assets are served from
 /// @type String
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
-$base-url: '/assets/' !default;
+$base-url: "/assets/" !default;

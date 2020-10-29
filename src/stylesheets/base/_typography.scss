@@ -2,6 +2,7 @@ h1,
 h2,
 h3,
 h4 {
+  font-family: $title_font ;
   letter-spacing: 1px;
 }
 
@@ -12,6 +13,7 @@ h4 {
 }
 
 h1 {
+  color: blue;
   font-size: 36px;
   margin: $L;
 }

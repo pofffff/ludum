@@ -346,8 +346,7 @@ template {
  * Set up a decent box model on the root element
  */
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  background: #1a1f23;
 }
 
 /**
@@ -379,6 +378,7 @@ h1,
 h2,
 h3,
 h4 {
+  font-family: "Hind Siliguri", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -389,6 +389,7 @@ h4 {
 }
 
 h1 {
+  color: blue;
   font-size: 36px;
   margin: 24px;
 }
@@ -485,7 +486,7 @@ button {
 
 .primary_button:hover {
   border: 2px solid #00f5e0;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .ghost_button {
@@ -497,7 +498,7 @@ button {
 
 .ghost_button:hover {
   border: 2px solid #00f5e0;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .secondary_button {
@@ -509,7 +510,7 @@ button {
 
 .secondary_button:hover {
   border: 2px solid #f9f9f9;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 600px) {

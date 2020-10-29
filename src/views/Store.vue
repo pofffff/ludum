@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>TEST</h1>
+    <h1>TEST!</h1>
    
   </section>
 </template>
@@ -19,6 +19,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
