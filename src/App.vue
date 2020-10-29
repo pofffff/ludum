@@ -1,21 +1,26 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <Header />
+    <router-view />
   </div>
 </template>
 
 <script>
+import Header from "@/components/global/layout/DesktopHeader";
 export default {
+  components: { Header },
   data: () => {
     return {};
   },
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @use "main.scss";
 
-.about {
-  background: $background;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 </style>
