@@ -8,6 +8,7 @@
       <router-link class="nav__link" to="/store"> Store </router-link>
       <router-link class="nav__link" to="/streams"> Streams </router-link>
     </nav>
+    <h1>HEEEEJ</h1>
   </div>
 </template>
 
