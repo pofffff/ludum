@@ -375,13 +375,40 @@ a {
   } */
 }
 
-/**
- * Basic typography style for copy text
- */
-/* body {
-  color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
-} */
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h4 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 24px;
+}
+
+h2 {
+  margin: 24px;
+  font-size: 24px;
+}
+
+h3 {
+  margin: 12px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h4 {
+  margin: 12px;
+  font-size: 18px;
+}
+
 /**
  * Clear inner floats
  */
@@ -437,5 +464,72 @@ a {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+button {
+  font-family: "Hind Siliguri", sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  -webkit-box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  outline: none;
+}
+
+.primary_button {
+  padding: 10px 48px;
+  color: #1a1f23;
+  border: 1px solid #00f5e0;
+  background: #00f5e0;
+}
+
+.primary_button:hover {
+  border: 2px solid #00f5e0;
+  font-weight: bold;
+}
+
+.ghost_button {
+  padding: 10px 48px;
+  color: #00f5e0;
+  border: 1px solid #00f5e0;
+  background: none;
+}
+
+.ghost_button:hover {
+  border: 2px solid #00f5e0;
+  font-weight: bold;
+}
+
+.secondary_button {
+  padding: 10px 18px;
+  color: #f9f9f9;
+  border: 1px solid #f9f9f9;
+  background: none;
+}
+
+.secondary_button:hover {
+  border: 2px solid #f9f9f9;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+    font-size: 14px;
+  }
+  .primary_button {
+    padding: 10px 24px;
+  }
+  .ghost_button {
+    padding: 10px 24px;
+  }
+  .secondary_button {
+    padding: 10px 24px;
+  }
+}
+
+.gaming_card {
+  width: 300px;
+  height: 500px;
+  background-color: blue;
 }
 /*# sourceMappingURL=main.css.map */
