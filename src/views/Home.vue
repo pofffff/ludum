@@ -1,7 +1,5 @@
 <template>
-  <div class="home">
-    <h1>Welcome to Your Vue.js App</h1>
-  </div>
+  <div class="home"></div>
 </template>
 
 <style lang="scss" scoped>

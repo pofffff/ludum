@@ -1,14 +1,14 @@
 <template>
-  <div class="about">
-    <Header />
+  <div>
+    <DesktopHeader />
     <router-view />
   </div>
 </template>
 
 <script>
-import Header from "@/components/global/layout/DesktopHeader";
+import DesktopHeader from "@/components/global/layout/DesktopHeader";
 export default {
-  components: { Header },
+  components: { DesktopHeader },
   data: () => {
     return {};
   },

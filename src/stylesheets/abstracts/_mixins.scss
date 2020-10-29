@@ -32,3 +32,15 @@
   }
 }
 
+@mixin nav_text_link {
+  font-family: $title_font;
+  font-size: 18px;
+  color: $text_color;
+  letter-spacing: 1px;
+  font-weight: 300;
+  padding: 0 $L;
+}
+
+@mixin nav_text_link_hover {
+  color: $site_color;
+}
