@@ -1,12 +1,11 @@
 <template>
   <section>
-    <h1>TEST!</h1>
-   
+  <GamingCard class="gaming__card" />
   </section>
 </template>
 
 <script>
-
+import GamingCard from "@/components/global/cards/GamingCard"
 export default {
   data() {
     return {
@@ -14,7 +13,7 @@ export default {
     }
   },
   components: {
-   
+   GamingCard
   }
 }
 </script>

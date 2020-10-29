@@ -2,7 +2,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: $title_font ;
+  color: $text-color;
+  font-family: $title_font;
   letter-spacing: 1px;
 }
 
@@ -32,4 +33,11 @@ h3 {
 h4 {
   margin: $M;
   font-size: 18px;
+}
+
+p {
+  font-family: $body_font;
+  color: $text-color;
+  margin: $M;
+  size: 12;
 }

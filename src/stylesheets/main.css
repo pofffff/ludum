@@ -378,6 +378,7 @@ h1,
 h2,
 h3,
 h4 {
+  color: #f9f9f9;
   font-family: "Hind Siliguri", sans-serif;
   letter-spacing: 1px;
 }
@@ -408,6 +409,13 @@ h3 {
 h4 {
   margin: 12px;
   font-size: 18px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #f9f9f9;
+  margin: 12px;
+  size: 12;
 }
 
 /**
@@ -528,9 +536,10 @@ button {
   }
 }
 
-.gaming_card {
-  width: 300px;
-  height: 500px;
-  background-color: blue;
+.gaming__card {
+  width: 324px;
+  height: 469px;
+  background-color: #23292f;
+  border-radius: 3px;
 }
 /*# sourceMappingURL=main.css.map */
