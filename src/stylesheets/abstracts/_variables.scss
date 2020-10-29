@@ -4,11 +4,11 @@
 
 /// Regular font family
 /// @type List
-$main-font: 'Hind Siliguri', sans-serif;
+$main_font: 'Hind Siliguri', sans-serif;
 
 /// Body font family
 /// @type List
-$secondary-font: 'Roboto', sans-serif;
+$secondary_font: 'Roboto', sans-serif;
 
 // COlORS
 // Black
@@ -23,16 +23,16 @@ $dark: #23292f !default;
 
 /// Site color
 /// @type Color
-$site-color: #00f5e0 !default;
+$site_color: #00f5e0 !default;
 
 /// Text color
 /// @type Color
-$text-color: #f9f9f9 !default;
+$text_color: #f9f9f9 !default;
 $white: #f9f9f9;
 
 /// Secondary text color
 /// @type Color
-$secondary-text-color: #65696d !default;
+$secondary_text_color: #65696d !default;
 $grey: #65696d;
 
 // Sizes
@@ -42,6 +42,9 @@ $XL: 48px;
 $L: 24px;
 $M: 12px;
 $S: 6px;
+
+// Shadows
+$button_shadow: 4px 6px 10px rgba(0, 0, 0, 0.7);
 
 /// Container's maximum width
 /// @type Length
