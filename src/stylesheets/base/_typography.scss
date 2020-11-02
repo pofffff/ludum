@@ -14,30 +14,30 @@ h4 {
 }
 
 h1 {
-  color: blue;
+  color: $text_color;
   font-size: 36px;
-  margin: $L;
+  margin: $L 0;
 }
 
 h2 {
-  margin: $L;
+  margin: $L 0;
   font-size: 24px;
 }
 
 h3 {
-  margin: $M;
+  margin: $M 0;
   font-weight: 700;
   font-size: 18px;
 }
 
 h4 {
-  margin: $M;
+  margin: $M 0;
   font-size: 18px;
 }
 
 p {
   font-family: $body_font;
   color: $text-color;
-  margin: $M;
+  margin: $M 0;
   size: 12;
 }

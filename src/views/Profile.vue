@@ -1,16 +1,14 @@
 <template>
-    <div>
-
-    </div>
+  <div class="wrapper">
+    <ProfileDetails />
+  </div>
 </template>
 
 <script>
-
-    export default {
-        components: {},
-    }
+import ProfileDetails from "@/components/ProfileDetails";
+export default {
+  components: { ProfileDetails },
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
