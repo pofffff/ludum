@@ -7,20 +7,20 @@
     </div>
     <div class="requirement__requirements">
       <h5>MINIMUM:</h5>
-      <p>OS: Windows 10 - 64 bit</p>
-      <p>Processor: Intel i5 or new-gen i3 / AMD equivalent</p>
-      <p>Memory: 4 GB RAM</p>
-      <p>Graphics: 2GB Video RAM</p>
-      <p>DirectX: Version 10</p>
-      <p>Storage: 4 GB free space</p>
+      <p class="p2">OS: Windows 10 - 64 bit</p>
+      <p class="p2">Processor: Intel i5 or new-gen i3 / AMD equivalent</p>
+      <p class="p2">Memory: 4 GB RAM</p>
+      <p class="p2">Graphics: 2GB Video RAM</p>
+      <p class="p2">DirectX: Version 10</p>
+      <p class="p2">Storage: 4 GB free space</p>
       <br>
       <h5>RECOMMENDED:</h5>
-      <p>OS: Windows 10 - 64 bit</p>
-      <p>Processor: Intel i7 or AMD equivalent (AMD FX 9500+ Series)</p>
-      <p>Memory: 8 GB RAM</p>
-      <p>Graphics: 4GB Video RAM</p>
-      <p>DirectX: Version 11</p>
-      <p>Storage: 4 GB free space</p>
+      <p class="p2">OS: Windows 10 - 64 bit</p>
+      <p class="p2">Processor: Intel i7 or AMD equivalent (AMD FX 9500+ Series)</p>
+      <p class="p2">Memory: 8 GB RAM</p>
+      <p class="p2">Graphics: 4GB Video RAM</p>
+      <p class="p2">DirectX: Version 11</p>
+      <p class="p2">Storage: 4 GB free space</p>
 
     </div>
   </section>
