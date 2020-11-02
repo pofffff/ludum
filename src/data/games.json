@@ -238,11 +238,11 @@
       "type": ["FPS", "Battle royal"],
       "editions": [{ "edition": "Standard edition", "price": "Free to play" }],
       "images": [
-        "pubg/pugb_1.jpg",
-        "pubg/pugb_2.jpg",
-        "pubg/pugb_3.jpg",
-        "pubg/pugb_4.jpg",
-        "pubg/pugb_5.jpg"
+        "pubg/pubg_1.jpg",
+        "pubg/pubg_2.jpg",
+        "pubg/pubg_3.jpg",
+        "pubg/pubg_4.jpg",
+        "pubg/pubg_5.jpg"
       ],
       "video": [
         {

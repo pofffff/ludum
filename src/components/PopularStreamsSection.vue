@@ -1,6 +1,9 @@
 <template>
   <section class="popular__streaming__section wrapper">
     <h3>POPULAR STREAMS</h3>
+    <div class="grid_5_columns">
+      <StreamingCard />
+    </div>
   </section>
 </template>
 
@@ -19,5 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+  article {
+    background-color: $card;
+  }
 </style>

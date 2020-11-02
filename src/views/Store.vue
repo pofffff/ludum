@@ -1,10 +1,15 @@
 <template>
   <section>
+    <FeatureRecommended />
+    <div class="grid_4_columns">
   <GamingCard />
+
+    </div>
   </section>
 </template>
 
 <script>
+import FeatureRecommended from "@/components/global/FeatureRecommended"
 import GamingCard from "@/components/global/cards/GamingCard"
 
 export default {
@@ -15,7 +20,7 @@ export default {
   },
   components: {
    GamingCard,
-   
+   FeatureRecommended
   }
 }
 </script>
