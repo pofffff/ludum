@@ -1,11 +1,11 @@
 <template>
-  <section class="pc__requirement ">
+  <section class="gaminfo__requirement ">
     <h3>PC requirement</h3>
     <div class="buttons">
       <button class="ghost_button">Windows</button>
       <button class="ghost_button">Mac OS</button>
     </div>
-    <div class="requirements">
+    <div class="requirement__requirements">
       <h5>MINIMUM:</h5>
       <p>OS: Windows 10 - 64 bit</p>
       <p>Processor: Intel i5 or new-gen i3 / AMD equivalent</p>
@@ -31,7 +31,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.pc__requirement {
+.gaminfo__requirement {
   height: auto;
   border-radius: $border_radius;
   padding: $S;
@@ -46,7 +46,7 @@ export default {};
     justify-content: space-around;
     margin: $M 0;
   }
-  .requirements{
+  .requirement__requirements{
       margin: $S;
 
       p{
