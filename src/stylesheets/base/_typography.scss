@@ -17,27 +17,27 @@ h4 {
 h1 {
   color: $text_color;
   font-size: 36px;
-  margin: $M 0;
+  margin-bottom: $M;
 }
 
 h2 {
-  margin: $M 0;
+  margin-bottom: $M;
   font-size: 24px;
 }
 
 h3 {
-  margin: $S 0;
+  margin-bottom: $S;
   font-weight: 700;
   font-size: 18px;
 }
 
 h4 {
-  margin: $S 0;
+  margin-bottom: $S;
   font-size: 18px;
 }
 
 h5 {
-  margin: $S 0;
+  margin-bottom: $S;
   font-size: 16px;
   font-weight: 700;
 }
@@ -45,6 +45,6 @@ h5 {
 p {
   font-family: $body_font;
   color: $text-color;
-  margin: $S 0;
+  margin-bottom: $S;
   size: 12;
 }

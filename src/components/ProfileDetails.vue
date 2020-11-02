@@ -17,8 +17,8 @@
 
 .profile__user {
     display: flex;
-    grid-column: 1/2;
-    
+
+    justify-content: space-between;
   img {
     width: 220px;
     height: 220px;
@@ -27,6 +27,11 @@
 
   h4 {
     color: $secondary_text_color;
+  }
+
+  .profile__account_details {
+      margin: $M;
+      text-align: end;
   }
 }
 </style>
