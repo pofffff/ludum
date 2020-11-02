@@ -141,10 +141,10 @@
       "name": "Red Dead Redemption 2",
       "type": ["FPS", "Open World"],
       "editions": [
-        {"edition": "Standard edition", "price": "49,00"}, 
-        {"edition": "Deluxe edition", "price": "79,00"},
-        {"edition": "Collector's edition", "price": "99,99"}
-    ],
+        { "edition": "Standard edition", "price": "49,00" },
+        { "edition": "Deluxe edition", "price": "79,00" },
+        { "edition": "Collector's edition", "price": "99,99" }
+      ],
       "images": [
         "rdr2/rdr2_1.jpg",
         "rdr2/rdr2_2.jpg",
@@ -165,10 +165,10 @@
       "name": "Destiny 2",
       "type": ["FPS", "MMO"],
       "editions": [
-        {"edition": "Standard edition", "price": "49,00"}, 
-        {"edition": "Deluxe edition", "price": "79,00"},
-        {"edition": "Collector's edition", "price": "99,99"}
-    ],
+        { "edition": "Standard edition", "price": "49,00" },
+        { "edition": "Deluxe edition", "price": "79,00" },
+        { "edition": "Collector's edition", "price": "99,99" }
+      ],
       "images": [
         "destiny2/destiny2_1.jpg",
         "destiny2/destiny2_2.jpg",
@@ -189,10 +189,10 @@
       "name": "FIFA 21",
       "type": ["Sport", "MMO"],
       "editions": [
-        {"edition": "Standard edition", "price": "49,00"}, 
-        {"edition": "Deluxe edition", "price": "79,00"},
-        {"edition": "Collector's edition", "price": "99,99"}
-    ],
+        { "edition": "Standard edition", "price": "49,00" },
+        { "edition": "Deluxe edition", "price": "79,00" },
+        { "edition": "Collector's edition", "price": "99,99" }
+      ],
       "images": [
         "fifa/fifa_1.jpg",
         "fifa/fifa_2.jpg",
@@ -213,10 +213,10 @@
       "name": "NHL 21",
       "type": ["Sport", "MMO"],
       "editions": [
-        {"edition": "Standard edition", "price": "49,00"}, 
-        {"edition": "Deluxe edition", "price": "79,00"},
-        {"edition": "Collector's edition", "price": "99,99"}
-    ],
+        { "edition": "Standard edition", "price": "49,00" },
+        { "edition": "Deluxe edition", "price": "79,00" },
+        { "edition": "Collector's edition", "price": "99,99" }
+      ],
       "images": [
         "nhl/nhl_1.jpg",
         "nhl/nhl_2.jpg",
@@ -295,8 +295,12 @@
     {
       "id": "0013",
       "name": "Overwatch 2",
-      "type": "",
-      "editions": [{}, {}, {}],
+      "type": ["FPS", "MMO"],
+      "editions": [
+        { "edition": "Standard edition", "price": "39,00" },
+        { "edition": "Deluxe edition", "price": "59,00" },
+        { "edition": "Collector's edition", "price": "89,99" }
+      ],
       "images": [
         "overwatch/overwatch_1.jpg",
         "overwatch/overwatch_2.jpg",
@@ -310,13 +314,13 @@
           "gameplay": "https://www.youtube.com/watch?v=dushZybUYnM"
         }
       ],
-      "decription": ""
+      "decription": "Overwatch is an online team-based game generally played as a first-person shooter. The game features several different game modes, principally designed around squad-based combat with two opposing teams of six players each."
     },
     {
       "id": "0014",
       "name": "Heartstone",
-      "type": "",
-      "editions": [{}, {}, {}],
+      "type": ["Card game"],
+      "editions": [{ "edition": "Standard edition", "price": "Free to play" }],
       "images": [
         "hearthstone/hearthstone_1.png",
         "hearthstone/hearthstone_2.jpg",
@@ -330,13 +334,17 @@
           "gameplay": "https://www.youtube.com/watch?v=ymuVLuVlsOU"
         }
       ],
-      "decription": ""
+      "decription": "Hearthstone is a free-to-play online digital collectible card game developed and published by Blizzard Entertainment. The game is a turn-based card game between two opponents, using constructed decks of 30 cards along with a selected hero with a unique power."
     },
     {
       "id": "0015",
       "name": "Call of Duty Modern warfare",
-      "type": "",
-      "editions": [{}, {}, {}],
+      "type": ["FPS", "MMO", "Battle royal"],
+      "editions": [
+        { "edition": "Standard edition", "price": "49,00" },
+        { "edition": "Deluxe edition", "price": "79,00" },
+        { "edition": "Collector's edition", "price": "99,99" }
+      ],
       "images": [
         "cod/cod_1.jpg",
         "cod/cod_2.jpg",
@@ -350,7 +358,7 @@
           "gameplay": "https://www.youtube.com/watch?v=XTNMlA4kUHc"
         }
       ],
-      "decription": ""
+      "decription": "Grounded combat and fast-paced action. The most photo realistic environments in franchise history. Fan-favorite multiplayer modes and epic Killstreaks. Deep weapon customization. Best-in-class down the barrel gameplay. And a whole lot more."
     }
   ]
 }
