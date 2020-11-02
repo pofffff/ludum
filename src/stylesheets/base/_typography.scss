@@ -1,7 +1,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   color: $text-color;
   font-family: $title_font;
   letter-spacing: 1px;
@@ -16,28 +17,34 @@ h4 {
 h1 {
   color: $text_color;
   font-size: 36px;
-  margin: $L 0;
+  margin: $M;
 }
 
 h2 {
-  margin: $L 0;
+  margin: $M;
   font-size: 24px;
 }
 
 h3 {
-  margin: $M 0;
+  margin: $S;
   font-weight: 700;
   font-size: 18px;
 }
 
 h4 {
-  margin: $M 0;
+  margin: $S;
   font-size: 18px;
+}
+
+h5 {
+  margin: $S;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 p {
   font-family: $body_font;
   color: $text-color;
-  margin: $M 0;
+  margin: $S;
   size: 12;
 }
