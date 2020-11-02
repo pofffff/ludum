@@ -14,9 +14,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-
-.profile__wrapper {
-
-}
-    </style>
+<style lang="scss" scoped></style>
