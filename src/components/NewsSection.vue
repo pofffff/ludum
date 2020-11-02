@@ -1,5 +1,6 @@
 <template>
-  <section class="news__section">
+  <section class="news__section wrapper">
+     <H3>NEWS</H3>
     <NewsArticle />
   </section>
 </template>

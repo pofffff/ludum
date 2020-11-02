@@ -1,0 +1,15 @@
+.grid_5_columns {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  }
+
+  .grid_2_column_article {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 324px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }

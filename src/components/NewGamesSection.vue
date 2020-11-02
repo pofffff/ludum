@@ -1,7 +1,9 @@
 <template>
   <section class="new__game__section wrapper">
     <H3>NEW GAMES</H3>
-  <GamingCard />
+    <div class="grid_5_columns">
+      <GamingCard />
+    </div>
   </section>
 </template>
 
@@ -20,5 +22,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+  @use "main.scss";
 </style>
