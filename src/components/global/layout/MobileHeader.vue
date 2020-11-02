@@ -51,7 +51,7 @@ export default {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   .nav__wrapper_mobile {
     display: none;
   }
