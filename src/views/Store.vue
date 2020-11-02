@@ -1,6 +1,7 @@
 <template>
   <section>
     <FeatureRecommended />
+    <BrowseGames />
     <div class="grid_4_columns">
   <GamingCard />
 
@@ -11,6 +12,7 @@
 <script>
 import FeatureRecommended from "@/components/global/FeatureRecommended"
 import GamingCard from "@/components/global/cards/GamingCard"
+import BrowseGames from "@/components/BrowseGames"
 
 export default {
   data() {
@@ -20,7 +22,8 @@ export default {
   },
   components: {
    GamingCard,
-   FeatureRecommended
+   FeatureRecommended,
+   BrowseGames
   }
 }
 </script>

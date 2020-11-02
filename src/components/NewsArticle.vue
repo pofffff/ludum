@@ -6,7 +6,7 @@
     </div>
     <div>
       <h3>HOW TO BECOME A PRO PLAYER</h3>
-      <p>
+      <p class="p2">
         We’ve probably all fantasized about quitting our 9 to 5s to live the dream and become a professional esports gamer. Being paid to play your favorite game all day long? What’s not to love? But it isn’t as easy as just packing up the day job and staying home in your track pants, gaming all hours of the day and not moving from the couch - making a real living out of esports competitions and getting into gaming leagues takes hard work and true dedication. And even if you’re willing to put the work in to become the absolute best in your game, there’s considerations to make, such as giving up a steady salary. But if you’re committed enough to put in the many, many hours (an excuse to game for more hours? Great) it takes to become good enough to make pro gaming your career, you could earn some serious dollar and live the dream. Check out our top tips to help you on your way to becoming an elite of esports.
       </p>
     </div>
@@ -18,7 +18,7 @@
     </div>
     <div>
       <h3>HOW TO BECOME A PRO PLAYER</h3>
-      <p>
+      <p class="p2">
         We’ve probably all fantasized about quitting our 9 to 5s to live the dream and become a professional esports gamer. Being paid to play your favorite game all day long? What’s not to love? But it isn’t as easy as just packing up the day job and staying home in your track pants, gaming all hours of the day and not moving from the couch - making a real living out of esports competitions and getting into gaming leagues takes hard work and true dedication. And even if you’re willing to put the work in to become the absolute best in your game, there’s considerations to make, such as giving up a steady salary. But if you’re committed enough to put in the many, many hours (an excuse to game for more hours? Great) it takes to become good enough to make pro gaming your career, you could earn some serious dollar and live the dream. Check out our top tips to help you on your way to becoming an elite of esports.
       </p>
     </div>
