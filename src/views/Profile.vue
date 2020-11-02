@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper profile__wrapper grid_2_columns">
     <ProfileDetails />
   </div>
 </template>
@@ -11,4 +11,9 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+.profile__wrapper {
+
+}
+    </style>
