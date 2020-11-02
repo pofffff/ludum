@@ -1,7 +1,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   color: $text-color;
   font-family: $title_font;
   letter-spacing: 1px;
@@ -14,30 +15,36 @@ h4 {
 }
 
 h1 {
-  color: blue;
+  color: $text_color;
   font-size: 36px;
-  margin: $L;
+  margin-bottom: $M;
 }
 
 h2 {
-  margin: $L;
+  margin-bottom: $M;
   font-size: 24px;
 }
 
 h3 {
-  margin: $M;
+  margin-bottom: $S;
   font-weight: 700;
   font-size: 18px;
 }
 
 h4 {
-  margin: $M;
+  margin-bottom: $S;
   font-size: 18px;
+}
+
+h5 {
+  margin-bottom: $S;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 p {
   font-family: $body_font;
   color: $text-color;
-  margin: $M;
+  margin-bottom: $S;
   size: 12;
 }
