@@ -37,7 +37,7 @@ export default {};
 .nav__wrapper_desktop {
   display: flex;
   height: 85px;
-  padding: $L;
+  padding: $M;
   box-shadow: $nav_box_shadow;
 
   .nav__link {
@@ -45,6 +45,7 @@ export default {};
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 $L;
   }
 
   .nav__link:hover {
@@ -55,7 +56,7 @@ export default {};
     display: flex;
 
     .nav__ul_logo {
-      width: 45px;
+      width: $XL;
       height: auto;
     }
   }
@@ -63,11 +64,18 @@ export default {};
   .nav__ul_right {
     display: flex;
     margin-left: auto;
+
     .nav__ul_profile-image {
-      width: 45px;
-      height: 45px;
+      width: $XL;
+      height: $XL;
       border-radius: 50%;
     }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav__wrapper_desktop {
+    display: none;
   }
 }
 </style>
