@@ -40,3 +40,20 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
+.popular__streaming__card {
+  width: auto;
+  height: auto;
+  background-color: $card;
+  border-radius: $border_radius;
+}
+
+.popular__streaming__card__text {
+  padding-left: $S;
+  padding-right: $S;
+  padding-bottom: $S;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}

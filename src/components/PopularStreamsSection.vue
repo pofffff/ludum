@@ -2,7 +2,11 @@
   <section class="popular__streaming__section wrapper">
     <h3>POPULAR STREAMS</h3>
     <div class="grid_5_columns">
-      <StreamingCard />
+        <StreamingCard />
+        <StreamingCard />
+        <StreamingCard />
+        <StreamingCard />
+        <StreamingCard />
     </div>
   </section>
 </template>
