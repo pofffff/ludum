@@ -17,8 +17,8 @@
 
 .profile__user {
     display: flex;
-
     justify-content: space-between;
+    
   img {
     width: 220px;
     height: 220px;

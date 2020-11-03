@@ -39,17 +39,19 @@ h4 {
 h5 {
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: $XS;
+  margin-bottom: $S;
 }
 
 .p2 {
   font-family: $body_font;
   color: $text_color;
   font-size: 12px;
+  letter-spacing: 1px;
 }
 
 .p1 {
   font-family: $body_font;
   color: $text_color;
   font-size: 14px;
+  letter-spacing: 1px;
 }

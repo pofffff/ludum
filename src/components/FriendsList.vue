@@ -59,11 +59,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .profile__friends_list {
   grid-column: 3/4;
   padding: $L 0;
-  
 }
 
 .header__friends_list {
@@ -74,41 +72,37 @@ export default {
 }
 
 .container__friends_list {
-  overflow: scroll;
-  height: 550px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 420px;
   padding-right: $S;
 
   .friend__card {
-  box-shadow: $small_card_box_shadow;
-  border-radius: 3px;
-  height: 75px;
-  margin: $XS 0;
-  display: flex;
-  align-items: center;
-  padding: $S;
-  cursor: pointer;
+    box-shadow: $small_card_box_shadow;
+    border-radius: 3px;
+    height: 75px;
+    margin: $XS 0;
+    display: flex;
+    align-items: center;
+    padding: $S;
+    cursor: pointer;
 
-  .online {
-    color: $site_color;
+    .online {
+      color: $site_color;
+    }
+
+    .offline {
+      color: $secondary_text_color;
+    }
+
+    i {
+      font-size: $L;
+      margin-right: $M;
+    }
   }
 
-  .offline {
-    color: $secondary_text_color;
+  .friend__card:hover {
+    background: $dark;
   }
-
-  i {
-    font-size: $L;
-    margin-right: $M;
-  }
-  
 }
-
-.friend__card:hover {
-  background: $dark;
-}
-}
-
-
-
-
 </style>
