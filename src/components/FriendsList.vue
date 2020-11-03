@@ -86,6 +86,7 @@ export default {
   display: flex;
   align-items: center;
   padding: $S;
+  cursor: pointer;
 
   .online {
     color: $site_color;
@@ -98,10 +99,6 @@ export default {
   i {
     font-size: $L;
     margin-right: $M;
-  }
-
-  h5 {
-    margin-bottom: $XS;
   }
   
 }
