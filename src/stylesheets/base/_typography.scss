@@ -17,24 +17,29 @@ h4 {
 h1 {
   color: $text_color;
   font-size: 36px;
+  margin-bottom: $M;
 }
 
 h2 {
   font-size: 24px;
+  margin-bottom: $M;
 }
 
 h3 {
   font-weight: 700;
   font-size: 18px;
+  margin-bottom: $S;
 }
 
 h4 {
   font-size: 18px;
+  margin-bottom: $S;
 }
 
 h5 {
   font-size: 16px;
   font-weight: 700;
+  margin-bottom: $XS;
 }
 
 .p1 {
