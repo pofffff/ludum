@@ -1,5 +1,5 @@
 <template>
-  <section class="game__description wrapper">
+  <section class="game__description ">
   <h3></h3>
   </section>
 </template>

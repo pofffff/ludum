@@ -30,8 +30,9 @@
   }
 
   .profile__account_details {
-      margin: $M;
+     padding: $L;
       text-align: end;
+      cursor: pointer;
   }
 }
 </style>

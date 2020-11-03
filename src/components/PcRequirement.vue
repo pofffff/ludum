@@ -1,26 +1,26 @@
 <template>
-  <section class="pc__requirement ">
+  <section class="gaminfo__requirement ">
     <h3>PC requirement</h3>
     <div class="buttons">
       <button class="ghost_button">Windows</button>
       <button class="ghost_button">Mac OS</button>
     </div>
-    <div class="requirements">
+    <div class="requirement__requirements">
       <h5>MINIMUM:</h5>
-      <p>OS: Windows 10 - 64 bit</p>
-      <p>Processor: Intel i5 or new-gen i3 / AMD equivalent</p>
-      <p>Memory: 4 GB RAM</p>
-      <p>Graphics: 2GB Video RAM</p>
-      <p>DirectX: Version 10</p>
-      <p>Storage: 4 GB free space</p>
+      <p class="p2">OS: Windows 10 - 64 bit</p>
+      <p class="p2">Processor: Intel i5 or new-gen i3 / AMD equivalent</p>
+      <p class="p2">Memory: 4 GB RAM</p>
+      <p class="p2">Graphics: 2GB Video RAM</p>
+      <p class="p2">DirectX: Version 10</p>
+      <p class="p2">Storage: 4 GB free space</p>
       <br>
       <h5>RECOMMENDED:</h5>
-      <p>OS: Windows 10 - 64 bit</p>
-      <p>Processor: Intel i7 or AMD equivalent (AMD FX 9500+ Series)</p>
-      <p>Memory: 8 GB RAM</p>
-      <p>Graphics: 4GB Video RAM</p>
-      <p>DirectX: Version 11</p>
-      <p>Storage: 4 GB free space</p>
+      <p class="p2">OS: Windows 10 - 64 bit</p>
+      <p class="p2">Processor: Intel i7 or AMD equivalent (AMD FX 9500+ Series)</p>
+      <p class="p2">Memory: 8 GB RAM</p>
+      <p class="p2">Graphics: 4GB Video RAM</p>
+      <p class="p2">DirectX: Version 11</p>
+      <p class="p2">Storage: 4 GB free space</p>
 
     </div>
   </section>
@@ -31,7 +31,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.pc__requirement {
+.gaminfo__requirement {
   height: auto;
   border-radius: $border_radius;
   padding: $S;
@@ -46,7 +46,7 @@ export default {};
     justify-content: space-around;
     margin: $M 0;
   }
-  .requirements{
+  .requirement__requirements{
       margin: $S;
 
       p{
