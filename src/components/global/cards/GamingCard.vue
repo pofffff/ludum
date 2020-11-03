@@ -7,7 +7,7 @@
       <h3>{{game.name}}</h3>
       <h4>{{game.description}}</h4>
       <p class="p1">It's a 5v5 tac-shooter matchup to plant or defuse the Spike in a one-life-per-round, first to 13 series.</p>
-      <PrimaryButton button_text="Buy" />
+      <PrimaryButton button_text="Buy 12,00£" />
     </div>
   </article>
 </template>
@@ -31,13 +31,14 @@ components: {
 
 <style lang="scss" scoped>
   img {
+    border-radius: $border-radius;
     height: 100%;
     object-fit: cover;
     width: 100%;
   }
 
 .card__image {
-  height: 175px;
+  height: 200px;
   margin-bottom: $S;
 }
 

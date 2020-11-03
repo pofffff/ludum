@@ -1,12 +1,12 @@
 <template>
-  <article class="special__offers_card">
-    <div>
+  <article class="special__offers__card">
+    <div class="card__image">
       <img :src="require(`@/assets/${game.images[0]}`)" alt=""> 
     </div>
-    <div>
-      <h4>{{game.name}}</h4>
-      <p>Offer ends at November 3rd</p>
-      <p>-50% 20,00£ now only 10,00£</p>
+    <div class="special__offers__card__text">
+      <h3>{{game.name}}</h3>
+      <p class="p1">Offer ends at November 3rd</p>
+      <p class="price p1">-50% 20,00£ now only 10,00£</p>
     <PrimaryButton button_text="Buy 10,00 £" />
     </div>
     
@@ -33,12 +33,19 @@ export default {
 
 <style lang="scss" scoped>
     img {
-      object-fit: cover;
-    height: 100%;
+      border-radius: $border-radius;
+    object-fit: fill;
+    object-position: center;
+    height: 200px;
     width: 100%;
   }
 
-  article {
-    background-color: $card;
+  .card__image {
+    margin-bottom: $S
   }
+
+  .price {
+  margin-bottom: $M;
+}
+
 </style>

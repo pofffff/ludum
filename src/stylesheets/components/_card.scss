@@ -6,9 +6,7 @@
   border-radius: $border_radius;
 }
 
-<<<<<<< Updated upstream
 
-=======
 .friend__card {
   box-shadow: $small_card_box_shadow;
   height: 75px;
@@ -24,4 +22,21 @@
   align-items: center;
   flex-direction: column;
 }
->>>>>>> Stashed changes
+
+
+.special__offers__card {
+  width: auto;
+  height: auto;
+  background-color: $card;
+  border-radius: $border_radius;
+}
+
+.special__offers__card__text {
+  padding-left: $S;
+  padding-right: $S;
+  padding-bottom: $S;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}

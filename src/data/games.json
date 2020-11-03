@@ -234,7 +234,7 @@
     },
     {
       "id": "0010",
-      "name": "PlayerUnknown's Battlegrounds",
+      "name": "PlayerUnknown's Bg",
       "type": ["FPS", "Battle royal"],
       "editions": [{ "edition": "Standard edition", "price": "Free to play" }],
       "images": [
