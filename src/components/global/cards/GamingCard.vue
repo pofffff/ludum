@@ -1,10 +1,12 @@
 <template>
   <article class="gaming__card"> 
-    <h3>{{game.name}}</h3>
     <img :src="require(`@/assets/${game.images[0]}`)" alt="">
+    <div>
+      <h3>{{game.name}}</h3>
     <h4>{{game.description}}</h4>
-    <p>It's a 5v5 tac-shooter matchup to plant or defuse the Spike in a one-life-per-round, first to 13 series. More than guns and bullets, you'll choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine.Creativity is your greatest weapon.</p>
+    <p>It's a 5v5 tac-shooter matchup to plant or defuse the Spike in a one-life-per-round, first to 13 series.</p>
     <PrimaryButton button_text="Buy" />
+    </div>
   </article>
 </template>
 

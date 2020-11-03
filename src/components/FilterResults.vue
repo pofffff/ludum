@@ -22,6 +22,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+  .filter__section h3 {
+    text-align: center;
+  }
 </style>

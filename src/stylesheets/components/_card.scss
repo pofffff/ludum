@@ -1,6 +1,5 @@
 .gaming__card {
   @include flexCenter();
-  padding: $M;
   width: auto;
   height: auto;
   background-color: $card;
