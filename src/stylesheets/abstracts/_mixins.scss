@@ -45,9 +45,17 @@
   color: $site_color;
 }
 
-@mixin flexCenter {
+@mixin flexCenterStart {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
+
+@mixin flexCenterEvenly {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+

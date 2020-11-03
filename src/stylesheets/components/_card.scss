@@ -1,9 +1,27 @@
 .gaming__card {
-  @include flexCenter();
+  @include flexCenterStart();
   width: auto;
   height: auto;
   background-color: $card;
   border-radius: $border_radius;
 }
 
+<<<<<<< Updated upstream
 
+=======
+.friend__card {
+  box-shadow: $small_card_box_shadow;
+  height: 75px;
+  margin: $XS 0;
+}
+
+.gaming__card__text {
+  padding-left: $M;
+  padding-right: $M;
+  padding-bottom: $M;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+>>>>>>> Stashed changes

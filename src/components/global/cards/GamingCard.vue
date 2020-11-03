@@ -1,11 +1,13 @@
 <template>
   <article class="gaming__card"> 
+    <div class="card__image">
     <img :src="require(`@/assets/${game.images[0]}`)" alt="">
-    <div>
+    </div>
+    <div class="gaming__card__text">
       <h3>{{game.name}}</h3>
-    <h4>{{game.description}}</h4>
-    <p>It's a 5v5 tac-shooter matchup to plant or defuse the Spike in a one-life-per-round, first to 13 series.</p>
-    <PrimaryButton button_text="Buy" />
+      <h4>{{game.description}}</h4>
+      <p class="p1">It's a 5v5 tac-shooter matchup to plant or defuse the Spike in a one-life-per-round, first to 13 series.</p>
+      <PrimaryButton button_text="Buy" />
     </div>
   </article>
 </template>
@@ -29,6 +31,22 @@ components: {
 
 <style lang="scss" scoped>
   img {
+    height: 100%;
+    object-fit: cover;
     width: 100%;
   }
+
+.card__image {
+  height: 175px;
+  margin-bottom: $S;
+}
+
+.gaming__card__text p {
+  margin-bottom: $M;
+}
+
+.gaming__card__text h3 {
+  text-transform: uppercase;
+}
+
 </style>
