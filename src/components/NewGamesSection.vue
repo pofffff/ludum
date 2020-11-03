@@ -32,4 +32,6 @@ export default {
 
 <style lang="scss" scoped>
   @use "main.scss";
+
+
 </style>

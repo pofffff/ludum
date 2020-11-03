@@ -3,22 +3,22 @@
     <h3>BROWSE</h3>
     <div class="filter">
       <h5>BROWSE BY CATEGORIES</h5>
-      <p>Top selling games</p>
-      <p>New releases</p>
-      <p>Most popular games</p>
-      <p>Upcoming</p>
-      <p>Featured</p>
-      <p>Classics</p>
+      <p class="p1">Top selling games</p>
+      <p class="p1">New releases</p>
+      <p class="p1">Most popular games</p>
+      <p class="p1">Upcoming</p>
+      <p class="p1">Featured</p>
+      <p class="p1">Classics</p>
       <h5>BROWSE BY GENRE</h5>
-      <p>Adventure</p>
-      <p>Action</p>
-      <p>RPG</p>
-      <p>Sports</p>
-      <p>Strategy</p>
-      <p>Racing</p>
-      <p>Massive Multiplayer</p>
-      <p>Casual</p>
-      <p>Free to play</p>
+      <p class="p1">Adventure</p>
+      <p class="p1">Action</p>
+      <p class="p1">RPG</p>
+      <p class="p1">Sports</p>
+      <p class="p1">Strategy</p>
+      <p class="p1">Racing</p>
+      <p class="p1">Massive Multiplayer</p>
+      <p class="p1">Casual</p>
+      <p class="p1">Free to play</p>
     </div>
   </section>
 </template>
@@ -37,6 +37,15 @@ export default {
     border-radius: $border_radius;
   }
 
-  .filter__section {
+  .filter p {
+    font-family: $body_font;
+    margin-bottom: 12px;
   }
+
+  h5 {
+    color: $site_color;
+    margin-bottom: 12px;
+  }
+
+
 </style>

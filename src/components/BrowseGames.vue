@@ -25,8 +25,8 @@ export default {
 
 <style lang="scss" scoped>
   .browse__section div {
-    display:flex;
-    flex-direction: row;
-    gap: 20px;
+   display: grid;
+   grid-template-columns: 18% 82%;
+   column-gap: 20px;
   }
 </style>

@@ -57,3 +57,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
+
+.news__article__text {
+  padding: $L;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
