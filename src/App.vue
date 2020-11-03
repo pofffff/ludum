@@ -36,6 +36,20 @@ export default {
   margin: 0;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: $dark;
+  border-radius: 6px;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $background;
+  border-radius: 6px;
+}
 </style>
