@@ -36,6 +36,12 @@ li {
   list-style-type: none;
 }
 
+i {
+  color: $text_color;
+  font-size: 18px;
+}
+
 .wrapper {
   margin: $XL $XXL;
 }
+
