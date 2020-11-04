@@ -21,6 +21,8 @@ export default {
     width: 100%;
     height: 500px;
     object-fit: cover;
+    border-radius: $border_radius;
+    box-shadow: $small_card_box_shadow;
   }
 
   .feature__selector {

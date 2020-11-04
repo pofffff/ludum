@@ -1,0 +1,39 @@
+{
+  "streams" : [
+    {
+      "viewers": "345",
+      "image": "streams/valorant.png",
+      "streamName": "Pew pew valorant #1",
+      "streamer": "LazerDog",
+      "game": "Valorant"
+    },
+    {
+      "viewers": "301",
+      "image": "streams/fortnite.jpg",
+      "streamName": "Casual nightstream EZ mode",
+      "streamer": "JunozGamer",
+      "game": "Fortnite"
+    },
+    {
+      "viewers": "225",
+      "image": "streams/lol.jpg",
+      "streamName": "LoL playing mid",
+      "streamer": "UberCatcher",
+      "game": "League of Legends"
+    },
+    {
+      "viewers": "345",
+      "image": "streams/csgo.jpg",
+      "streamName": "5v5 practise",
+      "streamer": "GoProJonas",
+      "game": "Counter Strike GO"
+    },
+    {
+      "viewers": "301",
+      "image": "streams/wow.jpg",
+      "streamName": "WoW raiding night",
+      "streamer": "GoopherGamer",
+      "game": "World of Warcraft"
+    }
+  ]
+}

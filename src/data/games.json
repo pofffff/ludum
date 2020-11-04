@@ -194,7 +194,7 @@
         { "edition": "Collector's edition", "price": "99,99" }
       ],
       "images": [
-        "fifa/fifa_1.jpg",
+        "fifa/fifa_1.png",
         "fifa/fifa_2.jpg",
         "fifa/fifa_3.jpg",
         "fifa/fifa_4.jpg",
@@ -218,7 +218,7 @@
         { "edition": "Collector's edition", "price": "99,99" }
       ],
       "images": [
-        "nhl/nhl_1.jpg",
+        "nhl/nhl_11.jpg",
         "nhl/nhl_2.jpg",
         "nhl/nhl_3.jpg",
         "nhl/nhl_4.jpg",
@@ -338,7 +338,7 @@
     },
     {
       "id": "0015",
-      "name": "Call of Duty Modern warfare",
+      "name": "Call of Duty MW",
       "type": ["FPS", "MMO", "Battle royal"],
       "editions": [
         { "edition": "Standard edition", "price": "49,00" },

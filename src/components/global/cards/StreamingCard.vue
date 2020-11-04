@@ -2,17 +2,17 @@
   <article class="popular__streaming__card">
     <div>
       <div class="watching">
-           <img src="https://cdn.ccn.com/wp-content/uploads/2020/04/valorant-twitch-beta.jpg" alt="">
+           <img class="stream__image" :src="require(`@/assets/${stream.image}`)" alt="">
            <div class="watch">
             <img class="eye" src="@/assets/eye.png" alt="">
-            <p class="watch_count">341 watching</p>
+            <p class="watch_count">{{stream.viewers}} viewers</p>
         </div>
       </div>
     </div>
     <div class="popular__streaming__card__text">
-      <p class="p1">Casual monday stream with Mjay</p>
-      <p class="p1">MjayMonkey</p>
-      <h3>LEAGUE OF LEGENDS</h3>
+      <p class="p1">{{stream.streamName}}</p>
+      <p class="p1">{{stream.streamer}}</p>
+      <h3>{{stream.game}}</h3>
       <GhostButton button_text="Watch" />
     </div>
   </article>
@@ -25,6 +25,9 @@ export default {
     return {
 
     }
+  },
+  props: {
+    stream: Object
   },
   components: {
     GhostButton
@@ -80,5 +83,9 @@ export default {
 
   .watch_count {
     font-family: $body_font;
+  }
+
+  .stream__image {
+     margin-bottom: $S;
   }
 </style>

@@ -5,8 +5,8 @@
     </div>
     <div class="special__offers__card__text">
       <h3>{{game.name}}</h3>
-      <p class="p1">Offer ends at November 3rd</p>
-      <p class="price p1">-50% 20,00£ now only 10,00£</p>
+      <p class="p1 offer_text">Offer ends at November 3rd</p>
+      <p class="price p1">-50%  <span class="line_through">20,00£</span>  now only 10,00£</p>
     <PrimaryButton button_text="Buy 10,00 £" />
     </div>
     
@@ -48,4 +48,7 @@ export default {
   margin-bottom: $M;
 }
 
+.offer_text {
+  margin-bottom: $S;
+}
 </style>
