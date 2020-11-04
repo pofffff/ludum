@@ -61,4 +61,13 @@ export default {
     width: 100%;
     border-radius: $border_radius;
   }
+
+  .news__article__text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  }
+
+  .news__article__text p {
+    margin-bottom: $M;
+  }
 </style>

@@ -8,8 +8,8 @@
 
   .grid_2_column_article {
     display: grid;
-    grid-template-columns: 45% 55%;
-    grid-template-rows: 324px;
+    grid-template-columns: repeat( auto-fit, minmax(600px, 1fr) );
+    grid-template-rows: 350px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
