@@ -65,7 +65,12 @@ export default {};
     width: 100px;
     height: 70px;
     margin-top: $M;
+    transition: ease-in-out;
+    transition: 0.2s;
   }
+  .small__examples:hover{ 
+ transform: scale(1.2);
+}
 }
 @media only screen and (max-width: 700px) {
   .video {
