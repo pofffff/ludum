@@ -25,6 +25,12 @@ export default {
     box-shadow: $small_card_box_shadow;
   }
 
+  @media only screen and (max-width: 400px) {
+    img {
+      height: 250px;
+    }
+  }
+
   .feature__selector {
     display: block;
     margin:auto;

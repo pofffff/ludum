@@ -50,7 +50,6 @@ export default {
     display: flex;
     flex-direction: column;
     background-color: $card ;
-    width: 100%;
     border-radius: $border_radius;
     box-shadow:$small_card_box_shadow ;
   }

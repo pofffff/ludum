@@ -50,3 +50,10 @@ i:hover {
   margin: $XL $XXL;
 }
 
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    margin: $L
+  }
+
+}
+

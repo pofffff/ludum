@@ -6,13 +6,14 @@
   row-gap: 20px;
   }
 
-  .grid_2_column_article {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(600px, 1fr) );
-    grid-template-rows: 350px;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
+  // .grid_2_column_article {
+  //   display: grid;
+  //   grid-template-columns: repeat( auto-fit, minmax(550px, 1fr) );
+  //   grid-template-rows: 400px;
+  //   grid-column-gap: 0px;
+  //   grid-row-gap: 0px;
+
+  //   }
 
     .grid_4_columns {
       display: grid;
