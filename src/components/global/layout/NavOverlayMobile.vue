@@ -31,6 +31,8 @@ export default {
 .nav__wrapper_overlay {
   z-index: 1;
   position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   background: $background;
