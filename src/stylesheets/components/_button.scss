@@ -8,6 +8,7 @@ button {
   font-size: 16px;
   border-radius: 3px;
   outline: none;
+  cursor: pointer;
 }
 
 .primary_button {
@@ -43,14 +44,14 @@ button {
   }
 
   .primary_button {
-    padding: 10px 24px;
+    padding: 8px 18px;
   }
 
   .ghost_button {
-    padding: 10px 24px;
+    padding: 6px 18px;
   }
 
   .secondary_button {
-    padding: 10px 24px;
+    padding: 6px 18px;
   }
 }
