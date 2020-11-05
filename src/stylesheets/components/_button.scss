@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to the button component.
+// This file contains all styles related to the button component.4
 // -----------------------------------------------------------------------------
 
 button {
@@ -12,7 +12,7 @@ button {
 }
 
 .primary_button {
-  padding: 10px 48px;
+  padding: 10px 24px;
   color: $background;
   border: 1px solid $site_color;
   background: $site_color;
@@ -22,7 +22,7 @@ button {
 
 
 .ghost_button {
-  padding: 10px 48px;
+  padding: 10px 24px;
   color: $site_color;
   border: 1px solid $site_color;
   background: none;
