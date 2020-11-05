@@ -67,6 +67,7 @@ img {
 h3 {
   margin: 0;
   margin-right: 5px;
+ 
 }
 
 .filter {
@@ -83,11 +84,16 @@ h3 {
 
   .filter p {
     font-family: $body_font;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   h5 {
     color: $site_color;
     margin-bottom: 12px;
+  }
+
+  .filter__mobile div {
+    margin-top: -20px;
+     margin-bottom: $M;
   }
 </style>

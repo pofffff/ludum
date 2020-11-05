@@ -27,7 +27,10 @@ export default {
 
 <style lang="scss" scoped>
 .nav__wrapper_mobile {
+  position: sticky;
+  top: 0;
   box-shadow: $nav_box_shadow;
+  background-color: $background;
 
   .nav__ul {
     justify-content: space-between;
