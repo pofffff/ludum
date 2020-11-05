@@ -5,7 +5,7 @@
       <h5>BROWSE BY CATEGORIES</h5>
       <p class="p1">Top selling games</p>
       <p class="p1">New releases</p>
-      <p class="p1">Most popular games</p>
+      <p class="p1 mp">Most popular games</p>
       <p class="p1">Upcoming</p>
       <p class="p1">Featured</p>
       <p class="p1">Classics</p>
@@ -45,6 +45,10 @@ export default {
   h5 {
     color: $site_color;
     margin-bottom: 12px;
+  }
+
+  .mp {
+    color: $site_color;
   }
 
 </style>

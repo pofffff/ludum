@@ -4,6 +4,7 @@
         <FilterGamesMobile />
       <FilterGames class="filter__games" />
       <FilterResults />
+      <TopSellingGames v-if="showTopGames" />
       </div>
     </section>
 </template>
@@ -11,17 +12,19 @@
 <script>
 import FilterGames from "@/components/FilterGames"
 import FilterResults from "@/components/FilterResults"
+import TopSellingGames from "@/components/TopSellingGames"
 import FilterGamesMobile from "@/components/global/layout/FilterGamesMobile"
 export default {
   data() {
     return {
-
+      showTopGames: false
     }
   },
   components: {
     FilterGames,
     FilterResults,
-    FilterGamesMobile
+    FilterGamesMobile,
+    TopSellingGames
   }
 }
 </script>

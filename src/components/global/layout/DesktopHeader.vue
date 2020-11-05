@@ -35,10 +35,14 @@ export default {};
 
 <style lang="scss" scoped>
 .nav__wrapper_desktop {
+  position: sticky;
+  top:0;
+  background-color: $background;
   display: flex;
   height: 85px;
   padding: $M;
   box-shadow: $nav_box_shadow;
+
 
   .nav__link {
     @include nav_text_link;
