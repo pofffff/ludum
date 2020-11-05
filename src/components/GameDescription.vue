@@ -1,7 +1,7 @@
 <template>
   <section class="gameinfo__description">
     <div>
-      <img src="@/assets/valorant/valorant_3.jpg" alt="valorant" class="valo" />
+      <img src="@/assets/valorant/valorant_1.jpg" alt="valorant" class="valo" />
       <h3>Description</h3>
       <p class="p2">
         It's a 5v5 tac-shooter matchup to plant or defuse the Spike in a

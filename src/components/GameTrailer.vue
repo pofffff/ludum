@@ -67,6 +67,7 @@ export default {};
     margin-top: $M;
     transition: ease-in-out;
     transition: 0.2s;
+    padding-bottom: $S;
   }
   .small__examples:hover{ 
  transform: scale(1.2);
