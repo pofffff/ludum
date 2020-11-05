@@ -29,7 +29,7 @@ components: { GameTrailer, PcRequirement, GameDescription, GameStreams, GameEdit
   'trailer description'
   'edition requirement'
   'streams .';
-  grid-template-columns: 55% 40%;
+  grid-template-columns: 50% 35%;
 
 .heading {
   grid-area: heading;
@@ -40,15 +40,19 @@ components: { GameTrailer, PcRequirement, GameDescription, GameStreams, GameEdit
 
   .gameeditions {
     grid-area: edition;
+ 
   }
   .gamedescription{
     grid-area: description;
+    justify-self: center;
   }
   .pcrequirement{
     grid-area: requirement;
+    justify-self: center;
   }
   .gamestreams{
     grid-area: streams;
+
   }
 }
 @media only screen and (max-width: 700px) {

@@ -19,14 +19,14 @@
       <img src="@/assets/streamer_face.png" alt="streamer" />
       <p class="p2 name">Asgard</p>
       <p class="p2 watching">31k watching</p>
-      <p class="p2 lang">Swedish</p>
+      <p class="p2 lang">Norwegian</p>
       <button class="ghost_button">Watch</button>
     </article>
     <article class="streams__streams">
       <img src="@/assets/streamer_face.png" alt="streamer" />
       <p class="p2 name">MegaKiller</p>
       <p class="p2 watching">1337 watching</p>
-      <p class="p2 lang">Swedish</p>
+      <p class="p2 lang">USA</p>
       <button class="ghost_button">Watch</button>
     </article>
   </section>
@@ -57,13 +57,13 @@ export default {};
     width: 85vw;
     grid-template-columns: 0.8fr repeat(3, 1fr);
 
-  p {
-    font-size: 10px;
-  }
-  img {
-    height: 3em;
-  }
- 
+    p {
+      font-size: 10px;
+    }
+    img {
+      height: 3em;
+    }
+
     .lang {
       display: none;
     }

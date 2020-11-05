@@ -13,15 +13,16 @@
       <p class="p2">Graphics: 2GB Video RAM</p>
       <p class="p2">DirectX: Version 10</p>
       <p class="p2">Storage: 4 GB free space</p>
-      <br>
+      <br />
       <h5>RECOMMENDED:</h5>
       <p class="p2">OS: Windows 10 - 64 bit</p>
-      <p class="p2">Processor: Intel i7 or AMD equivalent (AMD FX 9500+ Series)</p>
+      <p class="p2">
+        Processor: Intel i7 or AMD equivalent (AMD FX 9500+ Series)
+      </p>
       <p class="p2">Memory: 8 GB RAM</p>
       <p class="p2">Graphics: 4GB Video RAM</p>
       <p class="p2">DirectX: Version 11</p>
       <p class="p2">Storage: 4 GB free space</p>
-
     </div>
   </section>
 </template>
@@ -46,18 +47,17 @@ export default {};
     justify-content: space-around;
     margin: $M 0;
   }
-  .requirement__requirements{
-      margin: $S;
+  .requirement__requirements {
+    margin: $S;
 
-      p{
-        color: $secondary_text_color;
-
-      }
+    p {
+      color: $secondary_text_color;
+    }
   }
 }
 @media only screen and (max-width: 700px) {
-.gaminfo__requirement {
-  width: 85vw;
-}
+  .gaminfo__requirement {
+    width: 85vw;
+  }
 }
 </style>
