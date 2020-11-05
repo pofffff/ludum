@@ -38,7 +38,8 @@ methods: {
   img {
     border-radius: $border-radius;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
+    object-position: center;
     width: 100%;
   }
 

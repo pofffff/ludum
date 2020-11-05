@@ -75,7 +75,14 @@
 .card-list {
   display: flex;
   padding: 3rem;
-  overflow-x: scroll;
+  overflow-x: visible;
+
+  @media only screen and (max-width:700px) {
+    .card-list .card {
+      display: grid;
+      grid-template-columns: repeat(1fr);
+    }
+  }
 }
 
 
@@ -124,7 +131,6 @@
 .card:hover~.card {
   transform: translateX(130px);
 }
-
 
 .card:not(:first-child) {
   margin-left: -130px;
