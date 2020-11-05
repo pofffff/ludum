@@ -3,7 +3,7 @@
     <DesktopHeader />
     <MobileHeader @toggleNav="toggleNav" v-if="!this.showNavOverlay" />
     <NavOverlayMobile @toggleNav="toggleNav" v-if="this.showNavOverlay" />
-    <router-view />
+    <router-view class="main__view" />
     <DesktopFooter />
   </div>
 </template>
@@ -54,4 +54,5 @@ export default {
   background: $background;
   border-radius: 6px;
 }
+
 </style>

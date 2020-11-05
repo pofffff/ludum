@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper profile__wrapper grid_2_columns">
+  <div class="wrapper profile__wrapper grid_3_columns">
     <ProfileDetails />
     <FriendsList />
     <RecentActivity />

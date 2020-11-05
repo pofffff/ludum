@@ -38,7 +38,7 @@
 
 <style lang="scss" scoped>
 .recent-activity__wrapper {
-    grid-column: 1/3;
+    grid-column: 1/2;
 
   .recent-activity__card {
     box-shadow: $small_card_box_shadow;

@@ -16,6 +16,7 @@
 <style lang="scss" scoped>
 
 .profile__user {
+
     display: flex;
     justify-content: space-between;
     
