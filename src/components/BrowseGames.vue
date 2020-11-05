@@ -1,7 +1,7 @@
 <template>
     <section class="browse__section wrapper">
       <div>
-      <FilterGames />
+      <FilterGames class="filter__games" />
       <FilterResults />
       </div>
     </section>
@@ -28,5 +28,16 @@ export default {
    display: grid;
    grid-template-columns: 18% 82%;
    column-gap: 20px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .filter__games {
+      display: none;
+    }
+
+    .browse__section div {
+      grid-template-columns: 100%;
+    }
+
   }
 </style>
