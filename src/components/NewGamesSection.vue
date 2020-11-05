@@ -1,8 +1,8 @@
 <template>
-  <section class="new__game__section wrapper">
+  <section class="new__game__section wrapper ">
     <H3>NEW GAMES</H3>
-    <div class="grid_5_columns">
-      <GamingCard class="gaming__card"  v-for="(game,index) in newGames" :key="index" :game="game" />
+    <div class="grid_5_columns card-list">
+      <GamingCard class="gaming__card card"  v-for="(game,index) in newGames" :key="index" :game="game" />
     </div>
   </section>
 </template>
@@ -22,7 +22,7 @@ export default {
   computed: {
     newGames() {
       const arr = this.games;
-      const number = 5;
+      const number = 8;
       const newArray = this.games.slice(0,number)
       return newArray
     }

@@ -7,7 +7,7 @@
     <div class="news__article__text">
       <h3>HOW TO BECOME A PRO PLAYER</h3>
       <p class="p1">
-        We’ve probably all fantasized about quitting our 9 to 5s to live the dream and become a professional esports gamer. Listen to what the pro players say and how the life as a pro player is on a daily basis
+        We’ve probably all fantasized about quitting our 9 to 5s to live the dream and become a professional esports gamer. Listen to what the pro players say and how the life as a pro player is on a daily basis. Listen to the best players in the world right now. They know what they are talking about
       </p>
        <GhostButton button_text="Read More" class="ghost_button" />
     </div>
@@ -19,7 +19,7 @@
     <div class="news__article__text">
       <h3>TOP 3 VALORANT AGENTS</h3>
       <p class="p1">
-                 You always wondered which agent is the best right now. Read more here and get insider pro tips on which agent to pick for what battle. Some agents outperm others and you wanna play the best.
+                 You always wondered which agent is the best right now. Read more here and get insider pro tips on which agent to pick for what battle. Some agents outperm others and you wanna play the best. New patches out that means changes in the agent tier list and i promise you that you dont wanna miss this!
       </p>
        <GhostButton button_text="Read More" class="ghost_button" />
     </div>
@@ -32,7 +32,7 @@
     <div class="news__article__text">
       <h3>GAMES COMING IN 2021!</h3>
       <p class="p1">
-        Read up on all the latest info about the coolest and best games coming out in 2021. You dont wanna sit on the side when all your friends go pew pew in the latest games. 
+        Read up on all the latest info about the coolest and best games coming out in 2021. You dont wanna sit on the side when all your friends go pew pew in the latest games. Play the old classics but be prepare to battle in the new hottest games entering the world 2021.
       </p>
        <GhostButton button_text="Read More" class="ghost_button" />
     </div>
@@ -81,7 +81,7 @@ export default {
   }
 
   .news__article__text p {
-    margin-bottom: $M;
+    margin-bottom: $S;
   }
 
   .news_image {
