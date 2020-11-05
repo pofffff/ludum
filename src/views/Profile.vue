@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="wrapper grid_3_columns">
-      <MobileProfileNav @toggleProfileNav="toggleProfileNav" />
+      <MobileProfileNav @toggleProfileNav="toggleProfileNav" :isActive="isActive" />
       <ProfileDetails
         :class="[{ profile: isActive.profile }, 'mobile_class']"
       />

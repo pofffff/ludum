@@ -2,19 +2,16 @@
   <div class="mobile__profile_nav">
     <h4
       @click="toggleNav('profileActive')"
-      :class="{ nav__active: profileActive }"
+      :class="{ nav__active: isActive.profile }"
     >
       Profile
     </h4>
-    <h4
-      @click="toggleNav('gameActive')"
-      :class="{ nav__active: gameActive }"
-    >
+    <h4 @click="toggleNav('gameActive')" :class="{ nav__active: isActive.game }">
       Game
     </h4>
     <h4
       @click="toggleNav('friendsActive')"
-      :class="{ nav__active: friendsActive }"
+      :class="{ nav__active: isActive.friends }"
     >
       Friends
     </h4>
@@ -22,6 +19,7 @@
 </template>
 <script>
 export default {
+  props: { isActive: Object },
   data: () => {
     return {
       profileActive: true,
@@ -46,8 +44,8 @@ export default {
   .mobile__profile_nav {
     display: flex;
     width: 100%;
-    position: absolute;
-    z-index: 1;
+    position: fixed;
+    background: $background;
     top: 64px;
     left: 0;
     height: 64px;
@@ -55,12 +53,12 @@ export default {
     justify-content: space-around;
 
     h4 {
-        cursor: pointer;
+      cursor: pointer;
     }
 
     .nav__active {
-    color: $site_color;
-  }
+      color: $site_color;
+    }
   }
 }
 </style>
