@@ -1,7 +1,7 @@
 <template>
   <section class="featured__section wrapper">
     <h3>FEATURE & RECOMMENDED</h3>
-      <div class=>
+      <div>
       <img class="hero_bg" src="https://cdnb.artstation.com/p/assets/images/images/007/125/443/large/joshua-brian-smith-ornn-base-splash-web2.jpg?1503879061" alt="">
       <img class="logo" src="@/assets/lol.png" alt="">
       </div>
@@ -21,6 +21,7 @@ export default {
 
 <style lang="scss" scoped>
   .hero_bg {
+    z-index: -1;
     position: relative;
     width: 100%;
     height: 500px;
@@ -31,7 +32,7 @@ export default {
   }
 
   @media only screen and (max-width: 400px) {
-    img {
+    img .hero_bg {
       height: 250px;
     }
   }
@@ -45,7 +46,9 @@ export default {
   }
 
   .logo {
+    z-index: -1;
     width: 20%;
+    height: auto;
     position: absolute;
     top:50%;
     left:50%;
