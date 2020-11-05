@@ -1,6 +1,10 @@
 <template>
-  <section class="filter__section">
+<section class="filter__mobile">
+    <div @click="showFilter" >
     <h3>BROWSE</h3>
+    <img src="@/assets/arrow.png" alt="">
+  </div>
+   <section v-if="toggleFilter" class="filter__section">
     <div class="filter">
       <h5>BROWSE BY CATEGORIES</h5>
       <p class="p1">Top selling games</p>
@@ -21,16 +25,56 @@
       <p class="p1">Free to play</p>
     </div>
   </section>
+</section>
 </template>
 
 <script>
 export default {
-
+data() {
+  return {
+    toggleFilter:false
+  }
+},
+methods: {
+  showFilter() {
+    this.toggleFilter = !this.toggleFilter
+  }
+}
 }
 </script>
 
 <style lang="scss" scoped>
-  @use "main.scss";
+
+@media only screen and (min-width: 1200px) {
+  .filter__mobile {
+    display: none;
+  }
+}
+
+
+img {
+  height: 12px;
+  width: 12px;
+}
+
+ div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+}
+
+
   .filter {
     background-color: $card;
     padding: $M;
@@ -39,12 +83,11 @@ export default {
 
   .filter p {
     font-family: $body_font;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
   }
 
   h5 {
     color: $site_color;
     margin-bottom: 12px;
   }
-
 </style>

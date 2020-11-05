@@ -1,6 +1,7 @@
 <template>
     <section class="browse__section wrapper">
       <div>
+        <FilterGamesMobile />
       <FilterGames class="filter__games" />
       <FilterResults />
       </div>
@@ -10,6 +11,7 @@
 <script>
 import FilterGames from "@/components/FilterGames"
 import FilterResults from "@/components/FilterResults"
+import FilterGamesMobile from "@/components/global/layout/FilterGamesMobile"
 export default {
   data() {
     return {
@@ -18,7 +20,8 @@ export default {
   },
   components: {
     FilterGames,
-    FilterResults
+    FilterResults,
+    FilterGamesMobile
   }
 }
 </script>
@@ -30,7 +33,7 @@ export default {
    column-gap: 20px;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1200px) {
     .filter__games {
       display: none;
     }
@@ -38,6 +41,9 @@ export default {
     .browse__section div {
       grid-template-columns: 100%;
     }
-
   }
+
+
+
+
 </style>
