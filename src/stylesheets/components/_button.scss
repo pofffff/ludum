@@ -8,7 +8,7 @@ button {
   font-size: 16px;
   border-radius: 3px;
   outline: none;
-  cursor: pointer;
+  cursor: pointer
 }
 
 .primary_button {
@@ -17,6 +17,7 @@ button {
   border: 1px solid $site_color;
   background: $site_color;
   box-shadow: $button_shadow;
+  font-weight: 700;
 }
 
 
