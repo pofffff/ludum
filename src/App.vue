@@ -4,7 +4,7 @@
     <MobileHeader @toggleNav="toggleNav" v-if="!this.showNavOverlay" />
     <NavOverlayMobile @toggleNav="toggleNav" v-if="this.showNavOverlay" />
     <router-view :class="{active: isActive}" />
-    <DesktopFooter />
+    <Footer />
   </div>
 </template>
 
@@ -12,10 +12,10 @@
 import DesktopHeader from "@/components/global/layout/DesktopHeader";
 import MobileHeader from "@/components/global/layout/MobileHeader";
 import NavOverlayMobile from "@/components/global/layout/NavOverlayMobile";
-import DesktopFooter from "@/components/global/layout/DesktopFooter";
+import Footer from "@/components/global/layout/Footer";
 
 export default {
-  components: { DesktopHeader, MobileHeader, NavOverlayMobile, DesktopFooter },
+  components: { DesktopHeader, MobileHeader, NavOverlayMobile, Footer },
   data: () => {
     return {
       showNavOverlay: false,

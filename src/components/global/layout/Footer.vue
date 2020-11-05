@@ -54,7 +54,7 @@
   }
 
   .footer__wrapper {
-    padding: $L $XL;
+    padding: $M $XL;
     height: 220px;
 
     .secondary {
