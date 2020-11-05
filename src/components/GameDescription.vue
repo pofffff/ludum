@@ -21,7 +21,7 @@ export default {};
 <style lang="scss" scoped>
 .gameinfo__description {
   width: 350px;
-  height: 350px;
+  height: max-content;
   background-color: $card;
   border-radius: $border-radius;
   box-shadow: $small_card_box_shadow;
