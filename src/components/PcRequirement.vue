@@ -2,8 +2,8 @@
   <section class="gaminfo__requirement ">
     <h3>PC requirement</h3>
     <div class="buttons">
-      <button class="ghost_button">Windows</button>
-      <button class="ghost_button">Mac OS</button>
+      <button class="secondary_button">Windows</button>
+      <button class="secondary_button">Mac OS</button>
     </div>
     <div class="requirement__requirements">
       <h5>MINIMUM:</h5>
