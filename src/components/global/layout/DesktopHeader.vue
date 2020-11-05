@@ -42,6 +42,7 @@ export default {};
   height: 85px;
   padding: $M;
   box-shadow: $nav_box_shadow;
+  z-index: 1000;
 
 
   .nav__link {
