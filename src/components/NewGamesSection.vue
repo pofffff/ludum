@@ -39,5 +39,8 @@ export default {
   cursor: pointer;
 }
 
+.new__game__section h3 {
+  margin-bottom: $M;
+}
 
 </style>
