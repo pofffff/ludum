@@ -14,12 +14,10 @@
 </template>
 
 <style lang="scss" scoped>
-
 .profile__user {
+  display: flex;
+  justify-content: space-between;
 
-    display: flex;
-    justify-content: space-between;
-    
   img {
     width: 220px;
     height: 220px;
@@ -31,9 +29,32 @@
   }
 
   .profile__account_details {
-     padding: $L;
-      text-align: end;
-      cursor: pointer;
+    padding: $L;
+    text-align: end;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .profile__user {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img {
+      width: $XXL;
+      height: $XXL;
+    }
+
+    .profile__account_details {
+      margin-top: $XL;
+      text-align: center;
+width: 100%;
+      h5 {
+        padding: $S;
+      }
+    }
   }
 }
 </style>

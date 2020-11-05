@@ -47,6 +47,8 @@ h5 {
   color: $text_color;
   font-size: 12px;
   letter-spacing: 1px;
+  line-height: 130%;
+
 }
 
 .p1 {
@@ -54,6 +56,7 @@ h5 {
   color: $text_color;
   font-size: 14px;
   letter-spacing: 1px;
+  line-height: 130%;
 }
 
 
@@ -63,6 +66,10 @@ text-decoration:line-through;
 
 @media only screen and (max-width: 700px) {
 
+  h4 {
+    font-size: 12px;
+  }
+
   h5 {
     font-size: 12px;
   }
@@ -70,4 +77,6 @@ text-decoration:line-through;
   .p1 {
     font-size: 11px;
   }
+
+  
  }

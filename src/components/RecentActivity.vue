@@ -38,7 +38,7 @@
 
 <style lang="scss" scoped>
 .recent-activity__wrapper {
-    grid-column: 1/2;
+  grid-column: 1/2;
 
   .recent-activity__card {
     box-shadow: $small_card_box_shadow;
@@ -68,6 +68,26 @@
       .p2 {
         color: $secondary_text_color;
         margin-bottom: $S;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .recent-activity__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .recent-activity__container {
+      padding: $M;
+
+      .recent-activity__card {
+        width: 300px;
+        img {
+          width: 100px;
+        }
       }
     }
   }

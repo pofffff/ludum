@@ -32,6 +32,7 @@ export default {
           installed: "2 addons installed",
           img: "minecraft/minecraft_1.jpg",
         },
+        {name: "The Elder Scrolls Online", installed: "3 addons installed", img: "elderScrolls/elderScrolls.jpg"}
       ],
     };
   },
