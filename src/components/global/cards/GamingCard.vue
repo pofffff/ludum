@@ -1,5 +1,5 @@
 <template>
-  <article  class="gaming__card"> 
+  <article @click="showGameInfo"  class="gaming__card"> 
     <div class="card__image">
     <img :src="require(`@/assets/${game.images[0]}`)" alt="">
     </div>
@@ -25,6 +25,11 @@ props: {
 },
 components: {
   PrimaryButton
+},
+methods: {
+  showGameInfo() {
+    this.$router.push('/game-info')
+  }
 }
 }
 </script>
