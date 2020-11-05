@@ -28,6 +28,7 @@ export default {
 <style lang="scss" scoped>
 .nav__wrapper_mobile {
   position: sticky;
+  z-index: 1;
   top: 0;
   box-shadow: $nav_box_shadow;
   background-color: $background;

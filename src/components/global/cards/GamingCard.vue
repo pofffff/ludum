@@ -1,5 +1,5 @@
 <template>
-  <article class="gaming__card"> 
+  <article  class="gaming__card"> 
     <div class="card__image">
     <img :src="require(`@/assets/${game.images[0]}`)" alt="">
     </div>

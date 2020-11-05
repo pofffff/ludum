@@ -59,6 +59,7 @@ export default {
     align-items: center;
     display: flex;
     flex-direction: row;
+    z-index: 1;
   }
 
   .watching {
@@ -83,6 +84,7 @@ export default {
 
   .watch_count {
     font-family: $body_font;
+    z-index:1;
   }
 
   .stream__image {
