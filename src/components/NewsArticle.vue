@@ -7,23 +7,35 @@
     <div class="news__article__text">
       <h3>HOW TO BECOME A PRO PLAYER</h3>
       <p class="p1">
-        We’ve probably all fantasized about quitting our 9 to 5s to live the dream and become a professional esports gamer. Being paid to play your favorite game all day long? What’s not to love? But it isn’t as easy as just packing up the day job and staying home in your track pants, gaming all hours of the day and not moving from the couch - making a real living out of esports competitions and getting into gaming leagues takes hard work and true dedication. And even if you’re willing to put the work in to become the absolute best in your game, there’s considerations to make, such as giving up a steady salary. But if you’re committed enough to put in the many, many hours (an excuse to game for more hours? Great) it takes to become good enough to make pro gaming your career, you could earn some serious dollar and live the dream. Check out our top tips to help you on your way to becoming an elite of esports.
+        We’ve probably all fantasized about quitting our 9 to 5s to live the dream and become a professional esports gamer. Listen to what the pro players say and how the life as a pro player is on a daily basis
       </p>
        <GhostButton button_text="Read More" class="ghost_button" />
     </div>
   </article>
    <article class="grid_2_column_article">
     <div>
-      <img src="https://s.yimg.com/os/creatr-uploaded-images/2020-06/38ef1100-a472-11ea-9f36-b83076a350df" alt="">
+      <img class="news_image" src="https://s.yimg.com/os/creatr-uploaded-images/2020-06/38ef1100-a472-11ea-9f36-b83076a350df" alt="">
     </div>
     <div class="news__article__text">
-      <h3>HOW TO BECOME A PRO PLAYER</h3>
+      <h3>TOP 3 VALORANT AGENTS</h3>
       <p class="p1">
-        We’ve probably all fantasized about quitting our 9 to 5s to live the dream and become a professional esports gamer. Being paid to play your favorite game all day long? What’s not to love? But it isn’t as easy as just packing up the day job and staying home in your track pants, gaming all hours of the day and not moving from the couch - making a real living out of esports competitions and getting into gaming leagues takes hard work and true dedication. And even if you’re willing to put the work in to become the absolute best in your game, there’s considerations to make, such as giving up a steady salary. But if you’re committed enough to put in the many, many hours (an excuse to game for more hours? Great) it takes to become good enough to make pro gaming your career, you could earn some serious dollar and live the dream. Check out our top tips to help you on your way to becoming an elite of esports.
+                 You always wondered which agent is the best right now. Read more here and get insider pro tips on which agent to pick for what battle. Some agents outperm others and you wanna play the best.
       </p>
        <GhostButton button_text="Read More" class="ghost_button" />
     </div>
      
+  </article>
+  <article class="grid_2_column_article">
+    <div>
+      <img src="https://www.xpsports.com/wp-content/uploads/2020/10/xpsports-gamingtrends2021.jpg" alt="">
+    </div>
+    <div class="news__article__text">
+      <h3>GAMES COMING IN 2021!</h3>
+      <p class="p1">
+        Read up on all the latest info about the coolest and best games coming out in 2021. You dont wanna sit on the side when all your friends go pew pew in the latest games. 
+      </p>
+       <GhostButton button_text="Read More" class="ghost_button" />
+    </div>
   </article>
 </div>
 
@@ -47,8 +59,9 @@ export default {
   @use "main.scss"; 
   article {
     margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 400px;
     background-color: $card ;
     border-radius: $border_radius;
     box-shadow:$small_card_box_shadow ;
@@ -64,9 +77,14 @@ export default {
   .news__article__text {
   text-overflow: ellipsis;
   overflow: hidden;
+
   }
 
   .news__article__text p {
     margin-bottom: $M;
+  }
+
+  .news_image {
+    object-position: top;
   }
 </style>

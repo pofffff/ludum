@@ -2,7 +2,7 @@
   <section class="new__game__section wrapper">
     <H3>NEW GAMES</H3>
     <div class="grid_5_columns">
-      <GamingCard v-for="(game,index) in newGames" :key="index" :game="game" />
+      <GamingCard @click="showCard(index[0])" v-for="(game,index) in newGames" :key="index" :game="game" />
     </div>
   </section>
 </template>
@@ -27,6 +27,11 @@ export default {
       return newArray
     }
   },
+  methods: {
+    showCard(item) {
+      console.log(item)
+    }
+  }
 }
 </script>
 
