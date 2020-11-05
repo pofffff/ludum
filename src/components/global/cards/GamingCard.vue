@@ -28,7 +28,7 @@ components: {
 },
 methods: {
   showGameInfo() {
-    this.$router.push('/game-info')
+    this.$router.push('/game-info').then(() => window.scrollTo(0, 0));
   }
 }
 }
