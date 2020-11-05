@@ -11,7 +11,6 @@
 import ProfileDetails from "@/components/ProfileDetails";
 import FriendsList from "@/components/FriendsList";
 import RecentActivity from "@/components/RecentActivity";
-
 import Addons from "@/components/Addons";
 
 export default {
