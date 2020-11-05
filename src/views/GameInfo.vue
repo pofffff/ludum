@@ -1,10 +1,11 @@
 <template>
   <section class="game__info wrapper">
-  <GameTrailer />
-  <GameEdition />
-  <GameDescription />
-  <PcRequirement />
-  <GameStreams />
+  <h2 class="heading">Valorant</h2>
+  <GameTrailer class="gametrailer" />
+  <GameEdition class="gameeditions" />
+  <GameDescription class="gamedescription" />
+  <PcRequirement class="pcrequirement" />
+  <GameStreams class="gamestreams"/>
   </section>
 </template>
 
@@ -20,5 +21,48 @@ components: { GameTrailer, PcRequirement, GameDescription, GameStreams, GameEdit
 </script>
 
 <style lang="scss" scoped>
+.game__info {
+  display: grid;
+  justify-content: center;
+  grid-template-areas: 
+  'heading .'
+  'trailer description'
+  'edition requirement'
+  'streams .';
+  grid-template-columns: 55% 40%;
 
+.heading {
+  grid-area: heading;
+}
+  .gametrailer{
+    grid-area: trailer;
+  }
+
+  .gameeditions {
+    grid-area: edition;
+  }
+  .gamedescription{
+    grid-area: description;
+  }
+  .pcrequirement{
+    grid-area: requirement;
+  }
+  .gamestreams{
+    grid-area: streams;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .game__info{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    'heading'
+  'description'
+  'trailer'
+  'edition'
+  'requirement'
+  'streams ';
+  grid-template-columns: 85vw;
+  }
+}
 </style>

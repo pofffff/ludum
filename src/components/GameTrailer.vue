@@ -1,7 +1,6 @@
 <template>
 <section clasS="game__trailer">
-  <h3>Valorant</h3>
-<iframe width="750" height="400" src="https://www.youtube.com/embed/e_E9W2vsRbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/e_E9W2vsRbQ" class="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <section class="examples">
 <iframe src="https://www.youtube.com/embed/e_E9W2vsRbQ" class="small__examples" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <img src="@/assets/valorant/valorant_1.jpg" alt="" class="small__examples" >
@@ -20,15 +19,33 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+ .video {
+    height: 400px;
+    width: 750px;
+  }
+
 .examples {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 750px;
+  margin-bottom: $XL;
 
   .small__examples{
     width: 100px;
     height: 70px;
+    margin-top: $M;
   }
+}
+@media only screen and (max-width: 700px) {
+.video {
+  width: 85vw;
+}
+.examples {
+  width: 85vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
 }
 </style>

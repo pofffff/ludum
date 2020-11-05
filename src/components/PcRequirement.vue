@@ -55,4 +55,9 @@ export default {};
       }
   }
 }
+@media only screen and (max-width: 700px) {
+.gaminfo__requirement {
+  width: 85vw;
+}
+}
 </style>

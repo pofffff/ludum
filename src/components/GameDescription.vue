@@ -22,6 +22,7 @@ height: 350px;
 background-color: $card;
 border-radius: $border-radius;
 
+
   img {
     width: 350px;
   }
@@ -32,6 +33,16 @@ border-radius: $border-radius;
   p{
     padding: $S;
   }
+}
+@media only screen and (max-width: 700px) {
+.gameinfo__description {
+  width: 85vw;
+  margin-bottom: $M;
+
+  img{
+    width: 85vw;
+  }
+}
 }
 
 </style>
