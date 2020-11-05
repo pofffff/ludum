@@ -7,7 +7,7 @@
       />
       <FriendsList :class="[{ friends: isActive.friends }, 'mobile_class']" />
       <RecentActivity :class="[{ game: isActive.game }, 'mobile_class']" />
-      <Addons :class="[{ game: isActive.game }, 'mobile_class']" />
+      <Addons />
     </div>
   </div>
 </template>

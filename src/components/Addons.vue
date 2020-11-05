@@ -84,4 +84,11 @@ export default {
     background: $dark;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  
+  .addons__wrapper {
+    display: none;
+  }
+}
 </style>

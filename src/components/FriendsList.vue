@@ -105,4 +105,12 @@ export default {
     background: $dark;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  
+  .profile__friends_list {
+    display: flex;
+    flex-direction: column;
+  }
+}
 </style>
