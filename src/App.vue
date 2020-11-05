@@ -3,7 +3,7 @@
     <DesktopHeader />
     <MobileHeader @toggleNav="toggleNav" v-if="!this.showNavOverlay" />
     <NavOverlayMobile @toggleNav="toggleNav" v-if="this.showNavOverlay" />
-    <router-view class="main__view" />
+    <router-view :class="{active: isActive}" />
     <DesktopFooter />
   </div>
 </template>
@@ -19,11 +19,13 @@ export default {
   data: () => {
     return {
       showNavOverlay: false,
+      isActive: false,
     };
   },
   methods: {
     toggleNav() {
       this.showNavOverlay = !this.showNavOverlay;
+      this.isActive = !this.isActive
     },
   },
 };
@@ -53,6 +55,10 @@ export default {
 ::-webkit-scrollbar-thumb {
   background: $background;
   border-radius: 6px;
+}
+
+.active {
+  position: fixed;
 }
 
 </style>

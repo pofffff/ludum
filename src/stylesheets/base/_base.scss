@@ -8,6 +8,7 @@
 
 html {
   background: $background;
+
 }
 
 /**
@@ -17,8 +18,6 @@ html {
  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
 
-
- 
 /**
  * Basic styles for links
  */
@@ -52,8 +51,6 @@ i:hover {
 
 @media only screen and (max-width: 1000px) {
   .wrapper {
-    margin: $L
+    margin: $L;
   }
-
 }
-
