@@ -3,7 +3,9 @@
     <DesktopHeader />
     <MobileHeader @toggleNav="toggleNav" v-if="!this.showNavOverlay" />
     <NavOverlayMobile @toggleNav="toggleNav" v-if="this.showNavOverlay" />
+      <transition name="welcome">
     <router-view :class="{active: isActive}" />
+     </transition>
     <Footer />
   </div>
 </template>
