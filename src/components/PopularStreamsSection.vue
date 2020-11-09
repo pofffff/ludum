@@ -2,7 +2,7 @@
   <section class="popular__streaming__section wrapper">
     <h3>POPULAR STREAMS</h3>
     <div class="grid_5_columns">
-        <StreamingCard v-for="(stream,index) in streams" :key="index" :stream="stream" />
+        <StreamingCard class="card-hover" v-for="(stream,index) in streams" :key="index" :stream="stream" />
     </div>
   </section>
 </template>

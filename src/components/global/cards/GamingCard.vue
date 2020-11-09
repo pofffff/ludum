@@ -5,7 +5,6 @@
     </div>
     <div class="gaming__card__text">
       <h3>{{game.name}}</h3>
-      <h4>{{game.description}}</h4>
       <p class="p1">It's a 5v5 tac-shooter matchup to plant or defuse the Spike in a one-life-per-round, first to 13 series.</p>
       <PrimaryButton button_text="Buy 12,00£" />
     </div>
