@@ -1,8 +1,8 @@
 <template>
   <section class="special__offer__section wrapper">
     <h3>SPECIAL OFFERS</h3>
-    <div clasS="grid_5_columns">
-         <SpecialOfferCard v-for="(game,index) in SpecialOfferGames" :key="index" :game="game" />
+    <div clasS="grid_5_columns card-list">
+         <SpecialOfferCard class="card" v-for="(game,index) in SpecialOfferGames" :key="index" :game="game" />
     </div>
   </section>
 </template>
@@ -22,7 +22,7 @@ export default {
   computed: {
     SpecialOfferGames() {
       const arr = this.games;
-      const number = 10;
+      const number = 13;
       const newArray = this.games.slice(5,number)
       return newArray
     }

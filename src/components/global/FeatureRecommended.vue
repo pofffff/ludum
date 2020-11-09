@@ -31,11 +31,7 @@ export default {
     box-shadow: $small_card_box_shadow;
   }
 
-  @media only screen and (max-width: 400px) {
-    img .hero_bg {
-      height: 250px;
-    }
-  }
+
 
   .feature__selector {
     display: block;
@@ -58,4 +54,18 @@ export default {
   .featured__section {
     position: relative;
   }
+
+  @media only screen and (max-width: 700px) {
+     .hero_bg {
+      height: 250px;
+    }
+    .feature__selector  {
+      height: 8px;
+    }
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+  }
+
 </style>

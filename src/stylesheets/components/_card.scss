@@ -7,7 +7,6 @@
   box-shadow: $small_card_box_shadow;
 }
 
-
 .friend__card {
   box-shadow: $small_card_box_shadow;
   height: 75px;
@@ -23,7 +22,6 @@
   align-items: center;
   flex-direction: column;
 }
-
 
 .special__offers__card {
   width: auto;
@@ -61,7 +59,6 @@
   flex-direction: column;
 }
 
-
 .news__article__text {
   padding: $L;
   display: flex;
@@ -70,13 +67,14 @@
   flex-direction: column;
 }
 
-
-
 .card-list {
   display: flex;
-  overflow-x: visible;
-}
 
+  @media only screen and (max-width:700px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .card-list::-webkit-scrollbar {
   width: 0px;
@@ -92,7 +90,6 @@
   background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
 }
 
-
 .card {
   display: flex;
   position: relative;
@@ -101,19 +98,24 @@
   height: auto;
   width: 400px;
   min-width: 250px;
-}
+  @media only screen and (max-width:700px) {
+    width: 100%;
+  }
 
+}
 
 .card {
   border-radius: $border_radius;
   background-color: $background;
   box-shadow: -1rem 0 1.3rem #000;
-
   transition: .2s;
 }
 
 .card:hover {
   transform: translateY(-1rem);
+  @media only screen and (max-width:700px) {
+    transform: none;
+  }
 }
 
 .card:hover h3 {
@@ -122,8 +124,14 @@
 
 .card:hover~.card {
   transform: translateX(130px);
+  @media only screen and (max-width:700px) {
+    transform: none;
+  }
 }
 
 .card:not(:first-child) {
   margin-left: -130px;
+  @media only screen and (max-width:700px) {
+    margin-left: 0;
+  }
 }
