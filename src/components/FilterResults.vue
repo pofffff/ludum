@@ -2,7 +2,7 @@
   <section class="filter__section">
     <h3>MOST POPULAR GAMES</h3>
     <div class="grid_4_columns">
-        <GamingCard v-for="(game,index) in this.games" :key="index" :game="game" />
+        <GamingCard class="card-hover" v-for="(game,index) in this.games" :key="index" :game="game" />
     </div>
   </section>
 </template>
@@ -18,7 +18,7 @@ export default {
   },
   components: {
     GamingCard
-  }
+  },
 }
 </script>
 
