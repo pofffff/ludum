@@ -1,6 +1,32 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h1>Welcome to Your Vue.js App</h1>
-  </div>
+  <main>
+    <FeatureRecommended />
+    <NewGamesSection />
+    <NewsSection />
+    <SpecialOffersSection />
+    <PopularStreamsSection />
+  </main>
 </template>
+
+<script>
+import FeatureRecommended from "@/components/global/FeatureRecommended";
+import NewGamesSection from "@/components/NewGamesSection";
+import NewsSection from "@/components/NewsSection";
+import SpecialOffersSection from "@/components/SpecialOffersSection";
+import PopularStreamsSection from "@/components/PopularStreamsSection";
+export default {
+  data() {
+    return {};
+  },
+  components: {
+    FeatureRecommended,
+    NewGamesSection,
+    NewsSection,
+    SpecialOffersSection,
+    PopularStreamsSection
+  },
+};
+</script>
+
+<style>
+</style>

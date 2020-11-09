@@ -17,3 +17,16 @@ npm install
 ```
 npm run serve
 ```
+
+### Compiles for production
+
+```
+npm run build
+```
+
+### För att publicera pages
+
+```
+npm run build
+npm gh-pages -d dist/
+```

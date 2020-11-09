@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.4
+// -----------------------------------------------------------------------------
+
+button {
+  font-family: $button_font;
+  letter-spacing: 1px;
+  font-size: 16px;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer
+}
+
+.primary_button {
+  padding: 10px 24px;
+  color: $background;
+  border: 1px solid $site_color;
+  background: $site_color;
+  box-shadow: $button_shadow;
+  font-weight: 700;
+}
+
+
+.ghost_button {
+  padding: 10px 24px;
+  color: $site_color;
+  border: 1px solid $site_color;
+  background: none;
+  box-shadow: $button_shadow;
+}
+
+
+.secondary_button {
+  padding: 10px 18px;
+  color: $text_color;
+  border: 1px solid $text_color;
+  background: none;
+  box-shadow: $button_shadow;
+}
+
+
+@media only screen and (max-width: 600px) {
+  button {
+    font-size: 14px;
+  }
+
+  .primary_button {
+    padding: 8px 18px;
+  }
+
+  .ghost_button {
+    padding: 6px 18px;
+  }
+
+  .secondary_button {
+    padding: 6px 18px;
+  }
+}
