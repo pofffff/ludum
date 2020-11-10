@@ -22,7 +22,7 @@ export default {
   computed: {
     newGames() {
       const arr = this.games;
-      const number = 8;
+      const number = 7;
       const newArray = this.games.slice(0,number)
       return newArray
     }
