@@ -51,14 +51,14 @@ export default {};
 <style lang="scss" scoped>
 .video {
   height: 400px;
-  width: 750px;
+  width: 100%;
 }
 
 .examples {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 750px;
+  width: 100%;
   margin-bottom: $XL;
 
   .small__examples {

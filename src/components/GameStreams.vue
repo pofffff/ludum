@@ -41,7 +41,7 @@ export default {};
   display: grid;
   grid-template-columns: 0.5fr repeat(4, 1fr);
   align-items: center;
-  width: 700px;
+
   background-color: $card;
   padding: $S;
   border-radius: $border_radius;
