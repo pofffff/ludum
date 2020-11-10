@@ -62,7 +62,7 @@ export default {};
   margin-bottom: $XL;
 
   .small__examples {
-    width: 100px;
+    width: 15%;
     height: 70px;
     margin-top: $M;
     transition: ease-in-out;

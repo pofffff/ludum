@@ -41,7 +41,6 @@ export default {};
   display: grid;
   grid-template-columns: 0.5fr repeat(4, 1fr);
   align-items: center;
-
   background-color: $card;
   padding: $S;
   border-radius: $border_radius;
@@ -50,6 +49,9 @@ export default {};
 
   img {
     height: 4em;
+  }
+  .name {
+    padding-left: 1em;
   }
 }
 @media only screen and (max-width: 700px) {
