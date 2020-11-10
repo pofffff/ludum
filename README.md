@@ -22,11 +22,9 @@ med tillhörande komponenter som vi har haft hand om när vi gjort mockup och pr
 
 ## länkar
 
-```
-https://www.figma.com/file/TkLBlKlkD02CEY10EgbOBO/Designprojekt?node-id=0%3A1
-```
-```
-https://trello.com/invite/b/dNUUoBLB/9b8423a0a96e4a64f8734a01099aa873/uxui-projekt-3
 
-```
+[figma](https://www.figma.com/file/TkLBlKlkD02CEY10EgbOBO/Designprojekt?node-id=0%3A1)
+
+[trello](https://trello.com/invite/b/dNUUoBLB/9b8423a0a96e4a64f8734a01099aa873/uxui-projekt-3)
+
 
