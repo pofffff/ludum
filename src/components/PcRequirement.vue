@@ -36,7 +36,7 @@ export default {};
   height: auto;
   border-radius: $border_radius;
   padding: $S;
-  width: 400px;
+  width: 50%;
 
   h3 {
     text-align: center;

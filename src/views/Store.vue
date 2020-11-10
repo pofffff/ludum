@@ -3,8 +3,6 @@
     <FeatureRecommended />
     <BrowseGames />
     <div class="grid_4_columns">
-  <GamingCard />
-
     </div>
   </section>
 </template>

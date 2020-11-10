@@ -20,14 +20,14 @@ export default {};
 
 <style lang="scss" scoped>
 .gameinfo__description {
-  width: 350px;
+  width: 50%;
   height: max-content;
   background-color: $card;
   border-radius: $border-radius;
   box-shadow: $small_card_box_shadow;
 
   img {
-    width: 350px;
+    width: 100%;
   }
   h3 {
     text-align: center;

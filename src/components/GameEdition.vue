@@ -25,7 +25,6 @@ export default {};
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 700px;
   background-color: $card;
   padding: $M;
   border-radius: $border_radius;
